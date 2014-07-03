@@ -1,6 +1,6 @@
 /*-- .less for navbar --*/
 
-/*colors		@gray: #c7cacb;
+/*colors*/		@gray: #c7cacb;
 				@grayd: #292b2b;
 				@green: #70763c;
 				@ygreen: #bbbd2d;
@@ -8,16 +8,14 @@
 				@pink: #c13471;
 				@violet: #8765a6;
 				@blue: #326574;
-*/
 
-@media all and (min-width: 600px)
-{
+
 
 #navbar
 	{
 	width: 100%;
 	height: 90px;
-	background-color: #292b2b;
+	background-color: @grayd;
 	display: block;
 	}
 
@@ -48,7 +46,7 @@ nav ul
 	padding-top: 0px;
 	list-style-type: none; 
 	text-align: center; 
-	background-color: #11132f;
+	background-color: @grayd;
 	}
 
 nav ul:after 
@@ -66,7 +64,6 @@ nav ul li
 		
 nav ul li:hover 
 	{
-	color: #fff; 
 	background-color: rgba(255,255,255,0.1);
 	padding-bottom: 0px;
 	margin: 0;			
@@ -74,7 +71,7 @@ nav ul li:hover
 
 nav ul li:hover a 
 	{
-	color: #fff;
+	color: @ygreen;
 	}
 		
 nav ul li a 
@@ -127,5 +124,71 @@ nav ul ul ul
 	left: 100%; 
 	top:0;
 	}
+
+@media all and (max-width: 600px) and (min-width: 1px)
+{
+
+nav ul li
+	{
+	width: 100%;
+	}
+
+#navbar
+	{
+	width: 100%;
+	background-color: none;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	}
+
+nav ul
+	{
+	width: 100%;
+	padding-top: 5px;
+	}
+
+nav ul li a
+	{
+	margin: 0;
+	padding: 10px 0;
+	width: 100%;
+	}
+
+nav
+	{
+	height: auto;
+	margin: 0;
+	padding: 0;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
-}	

@@ -103,28 +103,28 @@ p {
   width: 100%;
   padding-top: 30px;
 }
-.article {
+.left-hero {
   margin: 0;
   padding: 0;
   display: block;
   width: 80%;
-  height: 500px;
   margin: 0 auto;
   background-color: #fff;
   text-align: center;
+  padding-top: 12vw;
 }
-.article h1 {
-  padding-top: 130px;
+.left-hero h1 {
+  padding-top: 10px;
 }
-#article {
+#hero {
   margin: 0;
   padding: 0;
   width: 50%;
   float: left;
-  padding-top: 70px;
 }
-#article p {
+#hero p {
   width: 60%;
+  min-width: 200px;
   padding-top: 20px;
   margin: 0 auto;
   text-align: left;
@@ -135,38 +135,14 @@ p {
   float: right;
   display: block;
   width: 50%;
+  max-width: 801px;
   height: 570px;
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 135% auto;
   background-image: url('../images/macbook.png');
-  margin-top: 30px;
-}
-@media all and (max-width: 1199px) and (min-width: 700px) {
-  #intro {
-    display: block;
-    height: 450px;
-    width: 100%;
-    padding-top: 40px;
-  }
-  .article {
-    margin: 0;
-    padding: 0;
-    display: block;
-    width: 80%;
-    height: 400px;
-    margin: 0 auto;
-    background-color: #fff;
-    text-align: center;
-  }
-  .article h1 {
-    padding-top: 90px;
-    font-size: 56px;
-  }
-  #macbook {
-    height: 450px;
-    margin-top: 25px;
-  }
+  margin-top: 15px;
+  padding: 15px 0;
 }
 #bottom-grad {
   width: 100%;
@@ -217,7 +193,8 @@ p {
   color: #bbbd2d;
 }
 #story1 p {
-  width: 40%;
+  width: 90%;
+  max-width: 550px;
   margin: 15px auto;
 }
 #azw {
@@ -266,7 +243,8 @@ p {
   color: #bbbd2d;
 }
 #story2 p {
-  width: 40%;
+  width: 90%;
+  max-width: 550px;
   margin: 15px auto;
 }
 #alphacover {
@@ -296,7 +274,6 @@ p {
   margin: 0;
   padding: 0;
   width: 50%;
-  padding-top: 70px;
   width: 100%;
   display: block;
   float: left;
@@ -305,6 +282,7 @@ p {
 }
 #article3 p {
   width: 60%;
+  min-width: 200px;
   padding-top: 20px;
   margin: 0 auto;
   text-align: left;
@@ -374,7 +352,8 @@ p {
   color: #bbbd2d;
 }
 #story3 p {
-  width: 40%;
+  width: 90%;
+  max-width: 550px;
   margin: 15px auto;
 }
 #sk-a1,
@@ -487,7 +466,8 @@ p {
   color: #bbbd2d;
 }
 #story4 p {
-  width: 40%;
+  width: 90%;
+  max-width: 550px;
   margin: 15px auto;
 }
 #graphwrapper {
@@ -644,8 +624,9 @@ p {
   background-color: #292b2b;
 }
 #download-link {
-  width: 40%;
-  padding: 0;
+  width: 90%;
+  max-width: 500px
+	padding: 0;
   margin: 0 auto;
   display: block;
 }
@@ -671,7 +652,9 @@ p {
   margin: 0;
 }
 #story6 h2 {
-  width: 100%;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
   text-align: center;
   padding: 30px 0;
   font-size: 44px;
@@ -681,7 +664,8 @@ p {
   color: #fff;
 }
 #story6 article {
-  width: 500px;
+  width: 90%;
+  max-width: 500px;
   margin: 0 auto;
 }
 #story6 #button3 {
@@ -781,10 +765,10 @@ p {
   padding-top: 10px;
   color: #70763c;
   text-align: center;
+  font-size: 22px;
 }
 #footer h2 {
   padding-top: 30px;
-  font-size: 38px;
   color: #c13471;
 }
 #footer p {
@@ -810,10 +794,10 @@ p {
   padding-top: 10px;
   color: #70763c;
   text-align: center;
+  font-size: 22px;
 }
 #footer-nh h2 {
   padding-top: 30px;
-  font-size: 38px;
   color: #c13471;
 }
 #footer-nh p {
@@ -850,6 +834,70 @@ p {
   padding: 15px 0 22px 0;
   color: #fff;
 }
+/* --- Index.html responsive style  --- */
+@media all and (max-width: 1199px) and (min-width: 800px) {
+  #intro {
+    display: block;
+    height: 450px;
+    width: 100%;
+    padding-top: 40px;
+  }
+  .left-hero {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .left-hero h1 {
+    padding-top: 90px;
+    font-size: 56px;
+  }
+  #hero p {
+    width: 90%;
+  }
+  #macbook {
+    height: 450px;
+    margin-top: 25px;
+  }
+  #azw {
+    background-size: 120% auto;
+  }
+}
+@media all and (max-width: 799px) and (min-width: 10px) {
+  #intro {
+    height: 350px;
+    padding-bottom: 50vw;
+  }
+  #hero {
+    width: 100%;
+  }
+  .left-hero {
+    padding-top: 0;
+  }
+  .left-hero h1 {
+    font-size: 48px;
+  }
+  .left-hero h2 {
+    font-size: 24px;
+  }
+  #macbook {
+    width: 100%;
+    background-size: 99% auto;
+    background-position: 50% -10%;
+  }
+  #story1 {
+    height: 640px;
+  }
+  #azw {
+    background-size: 180% auto;
+    height: 220px;
+  }
+}
 /* --- Projects page styles --- */
 /* --- Universal Portfolio Project page styles --- */
 #proj-bottom {
@@ -871,7 +919,8 @@ p {
   color: #bbbd2d;
 }
 #proj-bottom p {
-  width: 40%;
+  width: 90%;
+  max-width: 550px;
   margin: 15px auto;
 }
 #proj-buttons {
@@ -986,7 +1035,8 @@ p {
   color: #bbbd2d;
 }
 #story-azw p {
-  width: 40%;
+  width: 90%;
+  max-width: 550px;
   margin: 15px auto;
 }
 #story-azw img {
@@ -1018,7 +1068,8 @@ p {
   color: #bbbd2d;
 }
 #story-wf p {
-  width: 40%;
+  width: 90%;
+  max-width: 550px;
   margin: 15px auto;
 }
 #story-wf img {
@@ -1078,7 +1129,8 @@ p {
   color: #bbbd2d;
 }
 #story-snworks p {
-  width: 40%;
+  width: 90%;
+  max-width: 550px;
   margin: 15px auto;
 }
 #story-snworks img {
@@ -1150,7 +1202,8 @@ p {
   color: #bbbd2d;
 }
 #story-sha p {
-  width: 40%;
+  width: 90%;
+  max-width: 550px;
   margin: 15px auto;
 }
 #story-sha img {
@@ -1181,7 +1234,8 @@ p {
   color: #bbbd2d;
 }
 #story-sha-wf p {
-  width: 40%;
+  width: 90%;
+  max-width: 550px;
   margin: 15px auto;
 }
 #story-sha-wf img {
@@ -1218,13 +1272,7 @@ p {
   text-align: center;
   color: #292b2b;
 }
-/* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- */
-/* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- */
-/* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- */
-/* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- */
-/* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- */
-/* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- */
-/* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- *//* --- Gallery --- */
+/* --- Gallery --- */
 #article-projects {
   margin-bottom: 40px;
 }
@@ -1260,8 +1308,6 @@ p {
   width: 50%;
   background-color: #292b2b;
   opacity: 1;
-  /*------------- This Is The Off Switch -----------*/
-
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   -ms-transition: opacity 0.5s ease-in-out;
@@ -1319,15 +1365,9 @@ p {
 #gallery-bg {
   display: block;
   width: 100%;
-  /*
-	height: 3500px;
-	*/
-
 }
 #gallery {
   height: 50vw;
-  /*	background-image: url('../images/binding_dark.png'); */
-
   background-color: #292b2b;
 }
 #gallery img {
@@ -1343,27 +1383,6 @@ p {
   -o-transition: opacity 0.25s ease-in-out;
   transition: opacity 0.25s ease-in-out;
 }
-@media all and (max-width: 1000px) and (min-width: 300px) {
-  #gallery {
-    height: 200vw;
-    /*	background-image: url('../images/binding_dark.png'); */
-  
-    background-color: #292b2b;
-  }
-  #gallery img {
-    width: 50%;
-    height: auto;
-    overflow: hidden;
-    display: block;
-    float: left;
-    opacity: 0.5;
-    -webkit-transition: opacity 0.25s ease-in-out;
-    -moz-transition: opacity 0.25s ease-in-out;
-    -ms-transition: opacity 0.25s ease-in-out;
-    -o-transition: opacity 0.25s ease-in-out;
-    transition: opacity 0.25s ease-in-out;
-  }
-}
 #gallery img:hover {
   opacity: 1;
   -webkit-transition: opacity 0.25s ease-in-out;
@@ -1374,8 +1393,6 @@ p {
 }
 #gallery3 {
   height: 75vw;
-  /*	background-image: url('../images/binding_dark.png'); */
-
   background-color: #292b2b;
 }
 #gallery3 img {
@@ -1394,8 +1411,6 @@ p {
 @media all and (max-width: 1000px) and (min-width: 300px) {
   #gallery3 {
     height: 250vw;
-    /*	background-image: url('../images/binding_dark.png'); */
-  
     background-color: #292b2b;
   }
   #gallery3 img {
@@ -1507,7 +1522,8 @@ p {
   background-image: url('../images/ticks.png');
 }
 #about p {
-  width: 50%;
+  width: 90%;
+  max-width: 600px;
   display: block;
   margin: 10px auto;
   color: #326574;
@@ -1518,10 +1534,11 @@ p {
   width: 100%;
   height: 500px;
   display: block;
-  background-image: url('../images/binding_dark.png');
+  background-image: url('../images/ticks.png');
 }
 #download-link-contact {
-  width: 40%;
+  width: 90%;
+  max-width: 500px;
   margin: 0 auto;
   padding-top: 125px;
   display: block;
@@ -1529,9 +1546,10 @@ p {
 #download-link-contact h2 {
   text-align: center;
   font-size: 32px;
+  color: #292b2b;
 }
 #download-link-contact h2 a {
-  color: #bbbd2d;
+  color: #326574;
   text-decoration: none;
 }
 #download-link-contact h2 a:hover {
