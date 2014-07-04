@@ -37,11 +37,6 @@
   display: block;
   float: left;
 }
-@media all and (max-width: 1199px) and (min-width: 300px) {
-  .deskonly {
-    display: none;
-  }
-}
 /* --- end variable definitions --- */
 #beta {
   width: 100%;
@@ -834,70 +829,6 @@ p {
   padding: 15px 0 22px 0;
   color: #fff;
 }
-/* --- Index.html responsive style  --- */
-@media all and (max-width: 1199px) and (min-width: 800px) {
-  #intro {
-    display: block;
-    height: 450px;
-    width: 100%;
-    padding-top: 40px;
-  }
-  .left-hero {
-    margin: 0;
-    padding: 0;
-    display: block;
-    width: 80%;
-    height: 400px;
-    margin: 0 auto;
-    background-color: #fff;
-    text-align: center;
-    padding-top: 50px;
-  }
-  .left-hero h1 {
-    padding-top: 90px;
-    font-size: 56px;
-  }
-  #hero p {
-    width: 90%;
-  }
-  #macbook {
-    height: 450px;
-    margin-top: 25px;
-  }
-  #azw {
-    background-size: 120% auto;
-  }
-}
-@media all and (max-width: 799px) and (min-width: 10px) {
-  #intro {
-    height: 350px;
-    padding-bottom: 50vw;
-  }
-  #hero {
-    width: 100%;
-  }
-  .left-hero {
-    padding-top: 0;
-  }
-  .left-hero h1 {
-    font-size: 48px;
-  }
-  .left-hero h2 {
-    font-size: 24px;
-  }
-  #macbook {
-    width: 100%;
-    background-size: 99% auto;
-    background-position: 50% -10%;
-  }
-  #story1 {
-    height: 640px;
-  }
-  #azw {
-    background-size: 180% auto;
-    height: 220px;
-  }
-}
 /* --- Projects page styles --- */
 /* --- Universal Portfolio Project page styles --- */
 #proj-bottom {
@@ -1182,8 +1113,7 @@ p {
 #snw-bleed img {
   width: 100%;
 }
-/* --- Shadow League App Design Styles --- */
-#story-sha {
+/* --- Shadow League App Design Styles --- */#story-sha {
   display: block;
   height: 750px;
   width: 100%;
@@ -1283,7 +1213,8 @@ p {
   padding-bottom: 15px;
 }
 #article-projects p {
-  width: 40%;
+  width: 90%;
+  max-width: 500px;
   margin: 5px auto;
 }
 #project-title h2 {
@@ -1359,8 +1290,9 @@ p {
   height: 550px;
   width: 100%;
   padding-top: 30px;
-  height: 900px;
-  padding-top: 50px;
+  padding: 50px 0;
+  height: 350px;
+  padding-bottom: 42vw;
 }
 #gallery-bg {
   display: block;
@@ -1408,25 +1340,6 @@ p {
   -o-transition: opacity 0.25s ease-in-out;
   transition: opacity 0.25s ease-in-out;
 }
-@media all and (max-width: 1000px) and (min-width: 300px) {
-  #gallery3 {
-    height: 250vw;
-    background-color: #292b2b;
-  }
-  #gallery3 img {
-    width: 50%;
-    height: auto;
-    overflow: hidden;
-    display: block;
-    float: left;
-    opacity: 0.5;
-    -webkit-transition: opacity 0.25s ease-in-out;
-    -moz-transition: opacity 0.25s ease-in-out;
-    -ms-transition: opacity 0.25s ease-in-out;
-    -o-transition: opacity 0.25s ease-in-out;
-    transition: opacity 0.25s ease-in-out;
-  }
-}
 #gallery3 img:hover {
   opacity: 1;
   -webkit-transition: opacity 0.25s ease-in-out;
@@ -1436,7 +1349,7 @@ p {
   transition: opacity 0.25s ease-in-out;
 }
 #gallery-top h2 {
-  width: 60%;
+  width: 90%;
   margin: 15px auto;
   padding-top: 10px;
   color: #292b2b;
@@ -1444,13 +1357,13 @@ p {
   text-align: center;
 }
 #gallery-top h3 {
-  width: 60%;
+  width: 90%;
   margin: 15px auto;
   padding-top: 10px;
   color: #bbbd2d;
 }
 #gallery-top p {
-  width: 50%;
+  width: 90%;
   margin: 20px auto;
   text-align: center;
 }
@@ -1467,22 +1380,6 @@ p {
 }
 #gal_p h2 {
   color: #bbbd2d;
-}
-@media all and (max-width: 1000px) and (min-width: 300px) {
-  #gal_p {
-    width: 50%;
-    height: 50vw;
-    display: inline;
-    float: left;
-    background-image: url('../images/ticks.png');
-  }
-  #gal_p p,
-  #gal_p h2 {
-    margin: 10px 20px 10px 20px;
-  }
-  #gal_p h2 {
-    color: #bbbd2d;
-  }
 }
 #gal_sp {
   width: 100%;
@@ -1516,6 +1413,7 @@ p {
   padding: 20px 0 10px 0;
   color: #326574;
 }
+/* --- about and contact page styles --- */
 #about {
   width: 100%;
   padding: 50px 0 80px 0;
@@ -1555,6 +1453,122 @@ p {
 #download-link-contact h2 a:hover {
   text-decoration: underline;
 }
-#thelastdivid {
-  height: auto;
+@media all and (max-width: 1100px) and (min-width: 10px) {
+  #gallery {
+    height: 120vw;
+  }
+  #gallery-item {
+    width: 50%;
+    height: 30vw;
+    display: inline;
+    float: left;
+    overflow: hidden;
+  }
+  #gallery-item img {
+    width: 100%;
+  }
+  #gallery3 {
+    height: 180vw;
+  }
+  #gallery3 img {
+    width: 100%;
+  }
+  #gal_p {
+    width: 100%;
+    height: 30vw;
+  }
+}
+@media all and (max-width: 600px) and (min-width: 10px) {
+  #gallery {
+    height: 320vw;
+  }
+  #gallery-item {
+    width: 100%;
+    height: 40vw;
+    display: inline;
+    float: left;
+    overflow: hidden;
+  }
+  #gallery-item img {
+    width: 100%;
+  }
+  #gallery3 {
+    height: 480vw;
+  }
+  #gallery3 img {
+    width: 100%;
+  }
+  #gal_p {
+    width: 100%;
+    height: 40vw;
+  }
+}
+/* --- Index.html responsive style  --- */
+@media all and (max-width: 1199px) and (min-width: 800px) {
+  #intro {
+    display: block;
+    height: 450px;
+    width: 100%;
+    padding-top: 40px;
+  }
+  .left-hero {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .left-hero h1 {
+    padding-top: 90px;
+    font-size: 56px;
+  }
+  #hero p {
+    width: 90%;
+  }
+  #macbook {
+    height: 450px;
+    margin-top: 25px;
+  }
+  #azw {
+    background-size: 120% auto;
+  }
+}
+@media all and (max-width: 799px) and (min-width: 10px) {
+  #intro {
+    height: 350px;
+    padding-bottom: 50vw;
+  }
+  #hero {
+    width: 100%;
+  }
+  .left-hero {
+    padding-top: 0;
+  }
+  .left-hero h1 {
+    font-size: 48px;
+  }
+  .left-hero h2 {
+    font-size: 24px;
+  }
+  #macbook {
+    width: 100%;
+    background-size: 99% auto;
+    background-position: 50% -10%;
+  }
+  #story1 {
+    height: 640px;
+  }
+  #azw {
+    background-size: 180% auto;
+    height: 220px;
+  }
+}
+@media all and (max-width: 1199px) and (min-width: 300px) {
+  .deskonly {
+    display: none;
+  }
 }

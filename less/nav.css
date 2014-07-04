@@ -81,6 +81,22 @@ nav ul ul ul {
   left: 100%;
   top: 0;
 }
+@media all and (min-width: 601px) {
+  #navbar nav ul li.mobile-nav {
+    display: none;
+  }
+  #navbar nav ul li.mobile-nav a {
+    display: none;
+  }
+}
+@media all and (max-width: 600px) {
+  #navbar nav ul li.normal-nav {
+    display: none;
+  }
+  #navbar nav ul li.normal-nav a {
+    display: none;
+  }
+}
 @media all and (max-width: 600px) and (min-width: 1px) {
   nav ul li {
     width: 100%;

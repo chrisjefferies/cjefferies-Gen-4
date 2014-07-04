@@ -10,16 +10,18 @@
   <title>Graphic Design by Chris Jefferies</title>
   <meta name="description" content="Corporate Identity, Web Design & Illustration">
   			
-  			<!-- .less .css -->
+  			<!-- .less style links for DEVELOPMENT COMMENT OUT AFTER COMPILE, BEFORE COMMIT 
+  <link rel="stylesheet/less" type="text/css" href="less/nav.less" />
+  <link rel="stylesheet/less" type="text/css" href="less/style.less" />
+  			-->
+  			
+  			<!-- css style for LIVE SITE UNCOMMENT POST-DEV -->
   <link rel="stylesheet" type="text/css" href="less/nav.css">
   <link rel="stylesheet" type="text/css" href="less/style.css">
-  
-			
   			
-  			
-  			<!-- js for uncompiled .less
+  			<!-- js for uncompiled .less -->
   <script src="js/less-1.6.1.js" type="text/javascript"></script>
-			-->
+			
 
 
   		<!-- Google Web Fonts -->
@@ -48,8 +50,9 @@
 	<div id="navbar">
 	 	<nav> 
 			<ul> 
-				<li><a href="index.html">Home</a></li> 
-				<li><a href="gallery.html">Work</a></li>
+				<li><a href="#">Home</a></li> 
+				<li class="normal-nav"><a href="work.html">Work</a></li>
+				<li class="mobile-nav"><a href="gallery.html">Gallery</a></li>
 				<li><a href="about.html">About</a></li> 
 				<li><a href="contact.html">Contact</a></li> 
   			</ul> 
