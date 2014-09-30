@@ -10,18 +10,19 @@
   <title>Graphic Design by Chris Jefferies</title>
   <meta name="description" content="Corporate Identity, Web Design & Illustration">
   			
+  			<!-- .less .css -->
+  <link rel="stylesheet" type="text/css" href="css/nav.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  			
+  			
   			<!-- .less style links for DEVELOPMENT COMMENT OUT AFTER COMPILE, BEFORE COMMIT 
   <link rel="stylesheet/less" type="text/css" href="less/nav.less" />
   <link rel="stylesheet/less" type="text/css" href="less/style.less" />
   			-->
   			
-  			<!-- css style for LIVE SITE UNCOMMENT POST-DEV -->
-  <link rel="stylesheet" type="text/css" href="less/nav.css">
-  <link rel="stylesheet" type="text/css" href="less/style.css">
-  			
   			<!-- js for uncompiled .less
   <script src="js/less-1.6.1.js" type="text/javascript"></script>
-			-->
+			 -->
 
 
   		<!-- Google Web Fonts -->
@@ -50,9 +51,8 @@
 	<div id="navbar">
 	 	<nav> 
 			<ul> 
-				<li><a href="#">Home</a></li> 
-				<li class="normal-nav"><a href="work.html">Work</a></li>
-				<li class="mobile-nav"><a href="gallery.html">Gallery</a></li>
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="portfolio.html">Portfolio</a></li> 
 				<li><a href="about.html">About</a></li> 
 				<li><a href="contact.html">Contact</a></li> 
   			</ul> 
@@ -114,30 +114,30 @@
 			<article>
 				<p>
 					You've found one. In addition to HTML5 and CSS3 proficiency, I've got experience
-					with javascript, php and jQuery. Why not check out some of these freelance websites
-					that I've designed...
+					with javascript, php and jQuery. 
 				</p>
-			</article>
-		
-			<div id="button3">
-				<a href="http://www.matrixmetrology.com" target="_blank">Matrix Metrology</a>
-			</div>
-		
-			<div id="button3">
-				<a href="http://www.hollowmountaincomics.com" target="_blank">Hollow Mountain</a>
-			</div>
-		
-			<article>
-				<p>
-					Or check out this in-depth look at ongoing identity and web design for Alpha Dog Customs
+				<p class="under-600 padme">
+					Click the <em>git</em> to view my Repositories on Github.
 				</p>
+					
 			</article>
-		
-			<div id="button4">
-				<a href="alphadog.html">View Project</a>
+			
+			<div id="a-wrapper-github" class="over-600">
+				<a href="http://www.github.com/chrisjefferies/cjefferies.com" target="_blank">
+					<div id="github">
+						<div class="onhover">
+							<div id="sp-github"></div>
+							<p>
+								Show me the Repos!
+							</p>
+						</div>
+					</div>
+				</a>
 			</div>
-
-	</div>
+			<div id="github-mobile" class="under-600">
+				<a href="http://www.github.com/chrisjefferies/cjefferies.com" target="_blank"></a>
+			</div>
+		</div>
 	
 	
 	
@@ -145,10 +145,6 @@
 		<div id="download-link">
 			<h2>
 				Download my full <a href="docs/cjefferies.pdf" target="_blank">Resume</a>
-				<br>
-				or
-				<br>
-				View this site's repo on <a href="http://github.com/chrisjefferies/cjefferies-Gen-4" target="_blank">GitHub</a>
 			</h2>
 		</div>
 	
@@ -160,15 +156,15 @@
 		<p>Born & Raised.</p>
 		<p>© 2014 | this website is 100%, lovingly hand-coded by Chris Jefferies</p>
 		
-		<h2>thanks for looking</h2>
-		<h3>before you go, I hope you'll check out:</h3>
+		<h2>
+			thanks for looking<br>
+			before you go, I hope you'll check out my:
+		</h2>
 		
-		<div id="buttons">
-			<div id="button-work">
-				<a href="gallery.html">
-					<h2>Work</h2>
-				</a>
-			</div>
+		<div id="button">
+			<a href="portfolio.html">
+				<h3>Portfolio</h3>
+			</a>
 		</div>
 	</div>
 	

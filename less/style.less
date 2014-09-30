@@ -10,6 +10,7 @@
 				@blue: #326574;
 				
 				@beta: #f02225;
+				@beta40: rgba(240,34,37,0.4);
 				
 				/* sublimey colors */
 				
@@ -17,7 +18,8 @@
 				
 
 /*fonts*/			@ubuntu: 'ubuntu', 'helvetica neue', 'helvetica', 'arial', sans-serif;
-					@sintony: 'sintony', 'times', 'times new roman', serif;
+				@sintony: 'sintony', 'times', 'times new roman', serif;
+				@lato: 'sintony', 'times', 'times new roman', serif;
 
 /*classes*/		.no-pad
 					{
@@ -240,7 +242,7 @@ p
 	height: 70px;
 	background-color: @gray;
 	margin: 30px auto;
-	
+	transition: all 0.5s ease;
 	h3
 		{
 		.no-pad;
@@ -256,7 +258,15 @@ p
 		}	
 	}
 
-
+#button:hover
+	{
+	background-color: @blue;
+	transition: all 0.5s ease;
+	h3
+		{
+		color: @gray;
+		}
+	}
 
 /* --- story section 2 styles --- */
 
@@ -715,11 +725,9 @@ p
 			color: #fff;
 			}
 	
+	
+	
 	}
-
-
-
-
 
 
 
@@ -740,7 +748,7 @@ p
 		margin: 0 auto;
 		display: block;
 		}
-	h2, h3, p
+	h2, p
 		{
 		padding-top: 10px;
 		color: @green;
@@ -749,7 +757,7 @@ p
 		}	
 	h2
 		{
-		padding-top: 30px;
+		padding-top: 20px;
 		color: @pink;
 		}
 	p
@@ -786,6 +794,308 @@ p
 		}
 	}
 
+#button-work:hover
+	{
+	
+	}
+
+/* portfolio.less stand alone styles for /portfolio.html with fancybox and parallax scrolling */
+
+header
+	{
+	text-align: center;
+	padding: 40px 0 20px 0;
+	h2
+		{
+		font-size: 30px;
+		color: @blue;
+		padding: 0 0 5px 0;
+		}
+	}
+
+#portfolio-wrapper
+	{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	a
+		{
+		width: 80%;
+		}
+	}
+
+.project1-styles
+	{
+	width: 99%;
+	height: 80vh;
+	margin: 0 auto;
+	display: block;
+	}
+
+.sp
+	{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	height: 40px;
+	background-color: #fff;
+	}
+
+.onhover
+	{
+	display: none;
+	}
+
+#project-bfa
+	{
+	.project1-styles;
+	background: #ffffff url("../portfolio/bfa-video.png") no-repeat center center;
+	background-size: auto 90%;
+	transition: all 1.5s ease;
+		-webkit-transition: all 1.5s ease; /* For Safari & Chrome */
+		   -moz-transition: all 1.5s ease; /* For Firefox */
+			-o-transition: all 1.5s ease; /* For Opera */
+	}
+
+#project-bfa:hover
+	{
+	background-size: auto 92%;
+	transition: all 1.5s ease;
+		-webkit-transition: all 1.5s ease; /* For Safari & Chrome */
+		   -moz-transition: all 1.5s ease; /* For Firefox */
+			-o-transition: all 1.5s ease; /* For Opera */
+	}
+
+#project-azw
+	{
+	.project1-styles;
+	background: #ffffff url("../portfolio/azw-imac.png") no-repeat center center;
+	background-size: auto 90%;
+	transition: all 1.5s ease;
+		-webkit-transition: all 1.5s ease; /* For Safari & Chrome */
+		   -moz-transition: all 1.5s ease; /* For Firefox */
+			-o-transition: all 1.5s ease; /* For Opera */
+	}
+
+#project-azw:hover
+	{
+	background-size: auto 92%;
+	transition: all 1.5s ease;
+		-webkit-transition: all 1.5s ease; /* For Safari & Chrome */
+		   -moz-transition: all 1.5s ease; /* For Firefox */
+			-o-transition: all 1.5s ease; /* For Opera */
+	}
+
+#project-snworks
+	{
+	.project1-styles;
+	background: #ffffff url("../portfolio/snworks-floater.png") no-repeat center center;
+	background-size: auto 90%;
+	transition: all 1.5s ease;
+		-webkit-transition: all 1.5s ease; /* For Safari & Chrome */
+		   -moz-transition: all 1.5s ease; /* For Firefox */
+			-o-transition: all 1.5s ease; /* For Opera */
+	}
+
+#project-snworks:hover
+	{
+	background-size: auto 92%;
+	transition: all 1.5s ease;
+		-webkit-transition: all 1.5s ease; /* For Safari & Chrome */
+		   -moz-transition: all 1.5s ease; /* For Firefox */
+			-o-transition: all 1.5s ease; /* For Opera */
+	}
+
+#project-shadow
+	{
+	.project1-styles;
+	background: #ffffff url("../portfolio/shadow-floater-02.png") no-repeat center center;
+	background-size: auto 90%;
+	transition: all 1.5s ease;
+		-webkit-transition: all 1.5s ease; /* For Safari & Chrome */
+		   -moz-transition: all 1.5s ease; /* For Firefox */
+			-o-transition: all 1.5s ease; /* For Opera */
+	}
+
+#project-shadow:hover
+	{
+	background-size: auto 92%;
+	transition: all 1.5s ease;
+		-webkit-transition: all 1.5s ease; /* For Safari & Chrome */
+		   -moz-transition: all 1.5s ease; /* For Firefox */
+			-o-transition: all 1.5s ease; /* For Opera */
+	}
+
+#project-ubuntu
+	{
+	.project1-styles;
+	background: #ffffff url("../portfolio/ubuntu-imac.png") no-repeat center center;
+	background-size: auto 90%;
+	transition: all 1.5s ease;
+		-webkit-transition: all 1.5s ease; /* For Safari & Chrome */
+		   -moz-transition: all 1.5s ease; /* For Firefox */
+			-o-transition: all 1.5s ease; /* For Opera */
+	}
+
+#project-ubuntu:hover
+	{
+	background-size: auto 92%;
+	transition: all 1.5s ease;
+		-webkit-transition: all 1.5s ease; /* For Safari & Chrome */
+		   -moz-transition: all 1.5s ease; /* For Firefox */
+			-o-transition: all 1.5s ease; /* For Opera */
+	}
+
+#project-illustration
+	{
+	.project1-styles;
+	background: #ffffff url("../portfolio/vikings.png") no-repeat center center;
+	background-size: auto 90%;
+	transition: all 1.5s ease;
+		-webkit-transition: all 1.5s ease; /* For Safari & Chrome */
+		   -moz-transition: all 1.5s ease; /* For Firefox */
+			-o-transition: all 1.5s ease; /* For Opera */
+	}
+
+#project-illustration:hover
+	{
+	background-size: auto 92%;
+	transition: all 1.5s ease;
+		-webkit-transition: all 1.5s ease; /* For Safari & Chrome */
+		   -moz-transition: all 1.5s ease; /* For Firefox */
+			-o-transition: all 1.5s ease; /* For Opera */
+	}
+
+@media all and (min-width: 1px) and (max-width: 600px)
+{
+#project-bfa, #project-azw, #project-snworks, #project-shadow, #project-ubuntu, #project-illustration
+	{
+	height: 80vw;
+	}
+	
+#project-bfa
+	{
+	background-size: auto 85%;
+	}
+
+#project-bfa:hover
+	{
+	background-size: auto 87%;
+	}
+}
+
+
+#grid-wrapper
+	{
+	padding-top: 100px;
+	width: 100%;
+	height: 65vw;
+	}
+
+.portfolio-grid
+	{
+	width: 19%;
+	height: 19vw;
+	float: left;
+	margin: 10px 0.5%;
+	overflow: hidden;
+	
+	img
+		{
+		opacity: 1;
+		transition: all 1.5s ease;
+			-webkit-transition: all 1.5s ease; /* For Safari & Chrome */
+			   -moz-transition: all 1.5s ease; /* For Firefox */
+				-o-transition: all 1.5s ease; /* For Opera */
+		}
+	
+	.filled
+		{
+		width: 100%;
+		height: 100%;
+		background-color: @yellow;
+		
+		p
+			{
+			color: #eee;
+			text-align: center;
+			padding: 30px 30px;
+			color: @blue;
+			
+			a
+				{
+				text-decoration: none;
+				color: @beta;
+				}
+			a:hover
+				{
+				color: @grayd;
+				}
+			}
+		}
+	}
+
+@media all and (max-width: 450px)
+{
+.portfolio-grid
+	{
+	.filled
+		{
+		p
+			{
+			padding: 15px 15px;
+			}
+		}
+	}
+
+}
+
+@media all and (max-width: 1279px)
+{
+.portfolio-grid
+	{
+	width: 24%;
+	height: 24vw
+	}
+#grid-wrapper
+	{
+	height: 160vw;
+	}
+}
+
+@media all and (max-width: 800px)
+{
+.portfolio-grid
+	{
+	width: 32%;
+	height: 32vw
+	}
+#grid-wrapper
+	{
+	height: 160vw;
+	}
+}
+
+
+.portfolio-grid:hover
+	{
+	img
+		{
+		opacity: 0.6;
+		transition: all 1.5s ease;
+			-webkit-transition: all 1.5s ease; /* For Safari & Chrome */
+			   -moz-transition: all 1.5s ease; /* For Firefox */
+				-o-transition: all 1.5s ease; /* For Opera */
+		}
+	}
+
+
+
+
+
+
+
+
 /* --- Projects page styles --- */
 
 /* --- Universal Portfolio Project page styles --- */
@@ -810,67 +1120,26 @@ p
 		}
 	}
 
-
-
-
-
-
-/* --- Alpha Dog Customs Portfolio Project page styles --- */
-
-#intro-adcguns
+#return-link
 	{
-	width: 50%;
-	margin: 0 auto;
-	h2
-		{
-		text-align: center;
-		font-size: 40px;
-		color: @green;
-		margin: 40px 0 20px 0;
-		}
-	p
-		{
-		padding: 5px 0;	
-		}
-		
-	}
-
-#story-adcguns
-	{
-	display: block;
 	width: 100%;
-	padding-top: 90px;
+	margin: 0 auto;
+	background-color: @grayd;
 
-	h2
+	a
 		{
-		font-size: 32px;
-		padding-top: 40px;
-		text-align: center;
+		font-family: @ubuntu;
+		font-size: 80px;
+		color: @ygreen;
+		margin: 20px 0 0 80%;
+		text-decoration: none;
 		}
-	
-	p
+	a:hover
 		{
-		width: 40%;
-		margin: 60px auto 30px auto;
+		color: @yellow;
 		}
-		
-	img
-		{
-		width: 80%;
-		height: auto;
-		display: block;
-		margin: 20px auto;
-		}
-	
-	.width60imgs
-		{
-		width: 60%;
-		height: auto;
-		display: block;
-		margin: 20px auto;
-		}
-	
 	}
+
 
 #sp
 	{
@@ -901,32 +1170,782 @@ p
 		margin: 8px 0;
 		}	
 	}	
+.height150
+	{
+	}
+
+#blurb-wrap
+	{
+	width: 90%;
+	max-width: 600px;
+	padding: 40px 0 0 0;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	h4
+		{
+		font-family: @sintony;
+		font-weight: 400;
+		color: @yellow;
+		font-size: 10px;
+		text-transform: uppercase;
+		margin-top: 0;
+		}
+	.blurb-section
+		{
+		width: 200px;
+		display: block;
+		float: left;
+		p
+			{
+			padding-top: 0;
+			}
+		}
+	#skill-others
+		{
+		width: 198px;
+		border-right: solid 1px @gray;
+		border-left: solid 1px @gray;
+		margin-bottom: 30px;
+		p
+			{
+			font-size: 12px;
+			padding: 0 0 4px 0;
+			}
+		}
+	}
+
+@media all and (max-width: 770px)
+{
+#blurb-wrap
+	{
+	height: auto;
+	padding-bottom: 20px;
+	.blurb-section
+		{
+		float: none;
+		display: block;
+		width: 100%;
+		}
+	#skill-others
+		{
+		float: none;
+		display: block;
+		width: 100%;
+		padding: 20px 0;
+		margin: 20px 0;
+		border-top: solid 1px @gray;
+		border-bottom: solid 1px @gray;
+		border-right: none;
+		border-left: none;
+		}
+	}
+}
 
 
 
+/* --- Arizona Daily Wildcat Portfolio Project 
 
-/* --- Arizona Daily Wildcat Portfolio Project page styles --- */
+	And many subsequent Portfolio Page Styles
+	
+	
+
+--- */
 
 
 #story-azw
 	{
-	#story2;
-	height: 800px;
-	
-	img  
-		{
-		width: 80%;
-		display: block;
-		margin: 20px auto 0 auto;
-		box-shadow: 10px 10px 15px #888888;
-		}	
-	
-	h2
+	background-color: @grayd;
+	padding-bottom: 60px;
+	h1, h2
 		{
 		font-size: 32px;
-		color: @gray;
+		color: @blue;
+		text-transform: uppercase;
+		text-align: center;
 		}	
+	article
+		{
+		width: 90%;
+		max-width: 600px;
+		margin: 0 auto;
+		clear: both;
+		h3
+			{
+			padding-top: 40px;
+			}
+		a
+			{
+			text-decoration: none;
+			color: @ygreen;
+			h3
+				{
+				padding-top: 22px;
+				}
+			}
+		a:hover
+			{
+			color: @yellow;
+			}
+		}
+	p
+		{
+		color: #fff;
+		padding: 6px 0;
+		}
+	
+	h3
+		{
+		color: @blue;
+		}
+		
+	iframe
+		{
+		display: block;
+		margin: 0 auto;
+		margin-top: 60px;
+		}
 	}
+
+#a-wrapper
+	{
+	width: 90%;
+	max-width: 1100px;
+	margin: 0 auto;
+	a
+		{
+		text-decoration: none;
+		}
+	}
+	
+#azw-screenshot
+	{
+	/* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+	display: block;
+	width: 90%;
+	max-width: 1100px;
+	height: 45vw;
+	margin: 0 auto;
+	background-image: url('../images/azw-disp.png');
+	background-position: top center;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	}
+
+#azw-screenshot-2
+	{
+	#azw-screenshot;
+	margin-top: 10px;
+	background-image: url('../images/azw-wireframe-close.png');
+	}
+
+#azw-screenshot-3
+	{
+	#azw-screenshot;
+	margin-top: 10px;
+	background-image: url('../images/azw-wireframe-wide.png');
+	}
+
+#azw-screenshot-4
+	{
+	#azw-screenshot-3;
+	width: 100%;
+	background-image: url('../images/azw-spec-wide.png');
+	}
+
+@media all and (min-width: 1200px)
+{
+#azw-screenshot, #azw-screenshot-3, #azw-screenshot-4
+	{
+	height: 550px;
+	}
+#azw-screenshot-2
+	{
+	height: 600px;
+	}
+
+}
+
+
+.onhover
+	{
+	display: none;
+	p
+		{
+		height: 40px;	
+		text-align: center;
+		background-color: @beta;
+		transition: all 0.5s ease;
+			-webkit-transition: all 0.5s ease; /* For Safari & Chrome */
+			   -moz-transition: all 0.5s ease; /* For Firefox */
+				-o-transition: all 0.5s ease; /* For Opera */
+		}
+	}
+
+#azw-screenshot-4:hover > .onhover	
+	{
+	display: block;
+	}
+
+#bfa-poster:hover > .onhover
+	{
+	display: block;
+	}
+
+#sha-w-2:hover > .onhover
+	{
+	display: block;
+	}
+
+#github
+	{
+	width: 400px;
+	height: 400px;
+	display: block;
+	margin: 0 auto;
+	background-image: url('../portfolio/github.png');
+	background-position: center center;
+	background-size: 90% auto;
+	background-repeat: no-repeat;
+	.onhover
+		{
+		p
+			{
+			background-color: @beta40;
+			font-size: 30px;
+			text-transform: uppercase;
+			height: 220px;
+			}
+		}
+	}
+
+#sp-github
+	{
+	#sp;
+	width: 100%;
+	height: 180px;
+	background-color: @beta40;
+	padding: 0;
+	margin: 0;
+	}
+
+#a-wrapper-github
+	{
+	#a-wrapper;
+	width: 400px;
+	height: 400px;
+	margin-bottom: 30px;
+	}
+
+#github:hover > .onhover
+	{
+	display: block;
+	}
+
+
+
+#azw-screenshot-5
+	{
+	#azw-screenshot;
+	margin-top: 100px;
+	background-image: url('../portfolio/azw-imac.png');
+	background-size: auto 100%;
+	height: 90vh;
+	}
+
+#azw-duo-images
+	{
+	#azw-screenshot;
+	background-image: none;
+	height: 30vw;
+	margin-top: 40px;
+	
+	#azw-mobile-comp
+		{
+		width: 39%;
+		height: 100%;
+		float: left;
+		background-image: url('../images/azw-spec-mob.png');
+		background-position: top center;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		overflow: hidden;
+		}
+	
+	#azw-tablet-comp
+		{
+		width: 60%;
+		height: 100%;
+		float: right;
+		background-image: url('../images/azw-spec-tabtop2.png');
+		background-position: top center;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		overflow: hidden;
+		}
+	
+	#snw-colors
+		{
+		#azw-mobile-comp;
+		background-image: url('../portfolio/snw-colors.png');
+		background-size: 100% auto;
+		}
+	
+	}
+
+@media all and (min-width: 1200px)
+{
+#azw-duo-images
+	{
+	height: 360px;
+	}
+}
+
+@media all and (max-width: 650px)
+{
+#azw-screenshot-5
+	{
+	display: none;
+	}
+#azw-duo-images
+	{
+	width: 100%;
+	height: 125vw;
+	#azw-mobile-comp, #azw-tablet-comp
+		{
+		width: 90%;
+		height: 60vw;
+		float: none;
+		margin: 0 auto;
+		display: block;
+		margin-top: 10px;
+		}
+	}
+}
+
+#snw-starter
+	{
+	#azw-screenshot;
+	margin-top: 30px;
+	height: 41vw;
+	background-image: url('../portfolio/snw-starter.png');
+	background-size: 100% auto;
+	}
+
+#snw-duo-images
+	{
+	#azw-duo-images;
+	height: 36vw;
+	margin-top: 1vw;
+	#snw-colors
+		{
+		width: 25%;
+		background-image: url('../portfolio/snw-colors.png');
+		background-size: auto 100%;
+		}
+	#snw-gryphon
+		{
+		#azw-tablet-comp;
+		width: 74%;
+		background-image: url('../images/snworks-05.png');
+		background-size: auto 100%;
+		}
+	}
+
+#snw-type
+	{
+	#azw-screenshot;
+	margin-top: 10px;
+	height: 35vw;
+	background-image: url('../portfolio/snw-type.png');
+	background-size: 100% auto;
+	}
+
+#snw-products
+	{
+	#azw-screenshot;
+	margin-top: 10px;
+	height: 28vw;
+	background-image: url('../portfolio/snw-products.png');
+	background-size: 100% auto;
+	}
+
+#snw-web
+	{
+	#azw-screenshot;
+	margin-top: 10px;
+	height: 50vw;
+	background-image: url('../portfolio/snw-web.png');
+	background-size: 100% auto;
+	}
+
+#snw-foot
+	{
+	#azw-screenshot;
+	margin-top: 10px;
+	height: 20.5vw;
+	background-image: url('../portfolio/snw-foot-07.png');
+	background-size: 100% auto;
+	}
+
+#snw-logo
+	{
+	#azw-screenshot;
+	margin-top: 100px;
+	background-image: url('../portfolio/snworks-logo.png');
+	background-size: auto 100%;
+	}
+
+@media all and (min-width: 1200px)
+{
+#snw-starter
+	{
+	height: 515px;
+	}
+#snw-type
+	{
+	height: 445px;
+	}
+#snw-products
+	{
+	height: 340px;
+	}
+#snw-web
+	{
+	height: 640px;
+	}
+#snw-foot
+	{
+	height: 260px;
+	}
+#snw-logo
+	{
+	height: 575px;
+	}
+
+#snw-duo-images
+	{
+	height: 435px;
+	#snw-colors
+		{
+		background-image: url('../portfolio/snw-colors.png');
+		background-size: auto 100%;
+		height: 435px;
+		}
+	#snw-gryphon
+		{
+		/* #azw-tablet-comp; */
+		background-image: url('../images/snworks-05.png');
+		background-size: auto 100%;
+		height: 435px;
+		}
+	}
+
+}
+
+
+
+#bfa-wrapper
+	{
+	
+	#a-wrapper
+		{
+		width: 60%;
+		height: 90vw;
+		}
+	}
+
+	
+#bfa-poster
+	{
+	#azw-screenshot;
+	width: 100%;
+	height: 100%;
+	margin-top: 100px;
+	background-image: url('../portfolio/bfa-poster.png');
+	background-size: 100% auto;
+	.onhover p
+		{
+		background-color: @beta40;
+		height: 60vw;
+		font-size: 24px;
+		}
+	}
+
+#sp-bfa
+	{
+	#sp;
+	width: 100%;
+	height: 30vw;
+	background-color: @beta40;
+	padding: 0;
+	margin: 0;
+	}
+
+@media all and (min-width: 1300px)
+{
+.desktop
+	{
+	display: block;
+	}
+
+.laptop
+	{
+	display: none;
+	}
+
+.tablet
+	{
+	display: none;
+	}
+
+.mobile
+	{
+	display: none;
+	}
+}
+
+@media all and (min-width: 1200px) and (max-width: 1299px)
+{
+.desktop
+	{
+	display: none;
+	}
+
+.laptop
+	{
+	display: block;
+	}
+
+.tablet
+	{
+	display: none;
+	}
+
+.mobile
+	{
+	display: none;
+	}
+}
+
+@media all and (min-width: 900px) and (max-width: 1199px)
+{
+.desktop
+	{
+	display: none;
+	}
+
+.laptop
+	{
+	display: none;
+	}
+
+.tablet
+	{
+	display: block;
+	}
+
+.mobile
+	{
+	display: none;
+	}
+}
+
+@media all and (min-width: 0px) and (max-width: 899px)
+{
+.desktop
+	{
+	display: none;
+	}
+
+.laptop
+	{
+	display: none;
+	}
+
+.tablet
+	{
+	display: none;
+	}
+
+.mobile
+	{
+	display: block;
+	}
+}
+
+
+
+
+	
+
+#sha-w-1
+	{
+	#azw-screenshot;
+	margin-top: 10px;
+	height: 50vw;
+	background-image: url('../portfolio/sha-w-1.png');
+	background-size: 100% auto;
+	}
+
+#sha-w-image
+	{
+	#azw-screenshot;
+	margin-top: 10px;
+	height: 30.5vw;
+	background-image: url('../portfolio/sha-w-image.png');
+	background-size: 100% auto;
+	}
+
+#sha-w-2
+	{
+	#azw-screenshot;
+	margin-top: 10px;
+	height: 50vw;
+	background-image: url('../portfolio/sha-w-2.png');
+	background-size: 100% auto;
+	}
+
+#sha-ident
+	{
+	#azw-screenshot;
+	margin-top: 10px;
+	height: 17vw;
+	background-image: url('../portfolio/sha-ident.png');
+	background-size: 100% auto;
+	}
+
+#sha-uie
+	{
+	#azw-screenshot;
+	margin-top: 10px;
+	height: 23vw;
+	background-image: url('../portfolio/sha-uie.png');
+	background-size: 100% auto;
+	}
+
+@media all and (min-width: 1200px)
+{
+
+#sha-w-image
+	{
+	height: 390px;
+	}
+
+#sha-w-1
+	{
+	height: 640px;
+	}
+
+#sha-w-2
+	{
+	height: 600px;
+	}
+
+#sha-ident
+	{
+	height: 210px;
+	}
+
+#sha-uie
+	{
+	height: 280px;
+	}
+
+}
+
+
+
+#ill-grism
+	{
+	#azw-screenshot;
+	width: 90%;
+	margin-top: 10px;
+	height: 55vw;
+	background-image: url('../portfolio/grism.png');
+	background-size: 100% auto;
+	}
+
+#ill-grism-2
+	{
+	#azw-screenshot;
+	width: 90%;
+	margin-top: 10px;
+	height: 34vw;
+	background-image: url('../portfolio/grism-2.png');
+	background-size: 100% auto;
+	}
+
+
+#ill-michael
+	{
+	#azw-screenshot;
+	width: 90%;
+	margin-top: 10px;
+	height: 80vw;
+	background-image: url('../portfolio/michael.png');
+	background-size: auto 100%;
+	}
+
+#ill-t120-1
+	{
+	#azw-screenshot;
+	width: 90%;
+	margin-top: 10px;
+	height: 137vw;
+	background-image: url('../portfolio/t120-1.png');
+	background-size: 100% auto;
+	}
+
+#ill-t120-2
+	{
+	#azw-screenshot;
+	width: 90%;
+	margin-top: 10px;
+	height: 80vw;
+	background-image: url('../portfolio/t120-2.png');
+	background-size: auto 100%;
+	}
+
+#ill-spirit-1
+	{
+	#ill-t120-2;
+	background-image: url('../portfolio/spirit-1.png');
+	}
+	
+#ill-spirit-2
+	{
+	#ill-t120-2;
+	background-image: url('../portfolio/spirit-2.png');
+	}
+	
+
+
+@media all and (min-width: 1200px)
+{
+#ill-grism
+	{
+	height: 675px;
+	}
+
+#ill-grism-2
+	{
+	height: 415px;
+	}
+
+#ill-t120-1
+	{
+	height: 1700px;
+	}
+	
+}
+
+
+
+	/*	
+		 */
 
 #story-wf
 	{
@@ -1090,254 +2109,7 @@ p
 		}
 	}	
 
-/* --- Gallery --- */
 
-#article-projects
-	{
-	margin-bottom: 40px;
-	h2
-		{
-		text-align: center;
-		font-size: 40px;
-		color: @grayd;
-		padding-bottom: 15px;
-		}
-	p
-		{
-		width: 90%;
-		max-width: 500px;
-		margin: 5px auto;
-		}	
-	}
-
-#project-title
-	{
-	h2
-		{
-		text-align: center;
-		padding: 15px;
-		}
-	}	
-
-#webinfoboxes
-	{
-	width: 100%;
-	height: auto;
-	margin: 0 auto;
-	margin-top: 50px;
-	a
-		{
-		display: block;
-		width: 100%;
-		height: 20vw;	
-		}
-	}
-	
-#webinfoboxes article
-	{
-	position: relative;
-	float: left;
-	margin: 0;
-	width: 50%;
-	background-color: @grayd;
-	opacity: 1;			
-	-webkit-transition: opacity 0.5s ease-in-out;
-       -moz-transition: opacity 0.5s ease-in-out;
-        -ms-transition: opacity 0.5s ease-in-out;
-         -o-transition: opacity 0.5s ease-in-out;
-            transition: opacity 0.5s ease-in-out;
-	}	
-	
-#webinfoboxes article:hover
-	{
-	opacity: 0.85;
-	transition: all 0.5s linear;
-	
-	h2
-		{
-		color: @green;
-		transition: all 0.5s linear;
-		}
-	
-	}	
-	
-#checks
-	{
-	font-family: 'ubuntu';
-	color: @ygreen;
-	padding: 0px 10px 0px 0px;
-	}		
-	
-#project1
-	{
-	height: 20vw;	
-	background-image: url('../images/azw_home.png');
-	background-position: center center;
-	background-size: auto 100%;
-	}
-	
-#project2
-	{
-	#project1;
-	background-image: url('../images/adc_home.png');	
-	}
-	
-#project3
-	{	
-	#project1;
-	background-image: url('../images/snworks.png');	
-	}
-
-#project4
-	{
-	#project1;
-	background-image: url('../gallery/gal_shadow-02.png');
-	}
-	
-#intro-w
-	{
-	#intro;
-	padding: 50px 0;
-	height: 350px;
-	padding-bottom: 42vw;
-	}
-
-#gallery-bg
-	{
-	display: block;
-	width: 100%;
-	}
-	
-#gallery
-	{
-	height: 50vw;
-	background-color: @grayd;
-	
-	img
-		{
-		width: 25%;
-		height: auto;
-		overflow: hidden;
-		display: block;
-		float: left;
-		opacity: 0.5;
-		-webkit-transition: opacity 0.25s ease-in-out;
-	       -moz-transition: opacity 0.25s ease-in-out;
-     	   -ms-transition: opacity 0.25s ease-in-out;
-	         -o-transition: opacity 0.25s ease-in-out;
-     	       transition: opacity 0.25s ease-in-out;
-		}	
-	}
-
-#gallery img:hover
-	{
-	opacity: 1;
-	-webkit-transition: opacity 0.25s ease-in-out;
-       -moz-transition: opacity 0.25s ease-in-out;
-        -ms-transition: opacity 0.25s ease-in-out;
-         -o-transition: opacity 0.25s ease-in-out;
-            transition: opacity 0.25s ease-in-out;
-	}
-
-#gallery3
-	{
-	height: 75vw;
-	background-color: @grayd;
-	
-	img
-		{
-		width: 25%;
-		height: auto;
-		overflow: hidden;
-		display: block;
-		float: left;
-		opacity: 0.5;
-		-webkit-transition: opacity 0.25s ease-in-out;
-	       -moz-transition: opacity 0.25s ease-in-out;
-     	   -ms-transition: opacity 0.25s ease-in-out;
-	         -o-transition: opacity 0.25s ease-in-out;
-     	       transition: opacity 0.25s ease-in-out;
-		}	
-	}
-
-#gallery3 img:hover
-	{
-	opacity: 1;
-	-webkit-transition: opacity 0.25s ease-in-out;
-       -moz-transition: opacity 0.25s ease-in-out;
-        -ms-transition: opacity 0.25s ease-in-out;
-         -o-transition: opacity 0.25s ease-in-out;
-            transition: opacity 0.25s ease-in-out;
-	}
-
-#gallery-top
-	{
-	
-	h2
-		{
-		width: 90%;
-		margin: 15px auto;
-		padding-top: 10px;
-		color: @grayd;
-		font-size: 40px;
-		text-align: center;
-		}
-	
-	h3
-		{
-		width: 90%;
-		margin: 15px auto;
-		padding-top: 10px;
-		color: @ygreen;
-		}
-	p
-		{
-		width: 90%;
-		margin: 20px auto;
-		text-align: center;
-		}
-	}
-
-#gal_p
-	{
-	width: 25%;
-	height: 25vw;
-	display: inline;
-	float: left;
-	background-image: url('../images/ticks.png');
-	
-	p, h2
-		{
-		margin: 10px 20px 10px 20px;
-		}
-	h2
-		{
-		color: @ygreen;
-		}
-		
-	}
-
-#gal_sp
-	{
-	width: 100%;
-	height: 100px;
-	display: block;
-	}
-	
-#button-gal
-	{
-	#button;
-	
-	h2
-		{
-		.no-pad;
-		text-align: center;
-		width: 200px;
-		height: 40px;
-		padding: 20px 0 10px 0;
-		color: @blue;
-		}
-	}
 
 /* --- about and contact page styles --- */
 
@@ -1361,9 +2133,14 @@ p
 	{
 	.no-pad;
 	width: 100%;
-	height: 500px;
 	display: block;
 	background-image: url('../images/ticks.png');
+	h2
+		{
+		text-align: center;
+		padding: 40px 0;
+		color: @grayd;
+		}
 	}
 
 #download-link-contact
@@ -1385,93 +2162,244 @@ p
 			color: @blue;
 			text-decoration: none;
 			}
+		
+		a:hover
+			{
+			text-decoration: underline;
+			}
 		}
 	}
 
-#download-link-contact h2 a:hover
+
+
+
+
+
+.under-600
 	{
-	text-decoration: underline;
+	display: none;
 	}
 
-@media all and (max-width: 1100px) and (min-width: 10px)
+.over-600
+	{
+	display: block;
+	}
+
+.padme
+	{
+	padding-top: 20px;
+	}
+
+.under-800
+	{
+	display: none;
+	}
+
+.over-800
+	{
+	display: block;
+	}
+
+
+@media all and (max-width: 800px)
 {
-#gallery
+.under-800
 	{
-	height: 120vw;
+	display: block;
 	}
 
-#gallery-item
+.over-800
 	{
-	width: 50%;
-	height: 30vw;
-	display: inline;
-	float: left;
-	overflow: hidden;
-	
-	img
+	display: none;
+	}
+}
+
+@media all and (max-width: 600px)
+{
+.under-600
+	{
+	display: block;
+	}
+.over-600
+	{
+	display: none;
+	}
+#github-mobile
+	{
+	width: 60px;
+	height: 60px;
+	background-image: url('../portfolio/github-sm.png');
+	background-position: center center;
+	background-size: 60% auto;
+	background-repeat: no-repeat;
+	margin: 20px auto;
+	a
 		{
+		padding: 0px;
 		width: 100%;
+		height: 100%;
+		}
+	}
+}
+
+@media all and (max-width: 1279px) and (min-width: 801px)
+{
+.not-between8-1279
+	{
+	display: none;
+	}
+
+#grid-wrapper
+	{
+	height: 85vw;
+	}
+}
+
+
+
+#story8
+	{
+	width: 100%;
+	background-image: url(../images/mike-roof-ak.png);
+	background-size: auto 70%;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	
+	
+	h2, h3
+		{
+		width: 90%;
+		max-width: 700px;
+		margin: 0 auto;
+		text-align: center;
+		padding: 20px 0 0 0;
+		}
+	h3
+		{
+		font-family: @lato;
+		}
+	}
+
+#join
+	{
+	padding: 50px 0 100px 0;
+	
+	h2, p,
+		{
+		width: 90%;
+		max-width: 600px;
+		display: block;
+		margin: 0 auto;
 		}
 	
-	}
-
-#gallery3
-	{
-	height: 180vw;
-	
-	img
+	h2
 		{
-		width: 100%;
+		text-align: center;
+		}
+	
+	p
+		{
+		padding: 10px 0 20px 0;
 		}	
 	}
 
-#gal_p
+#joinform
 	{
-	width: 100%;
-	height: 30vw;
-	}
-
-}
-
-@media all and (max-width: 600px) and (min-width: 10px)
-{
-#gallery
-	{
-	height: 320vw;
-	}
-
-#gallery-item
-	{
-	width: 100%;
-	height: 40vw;
-	display: inline;
-	float: left;
-	overflow: hidden;
+	padding: 50px 0 100px 0;
+	width: 90%;
+	max-width: 500px;
+	display: block;
+	margin: 0 auto;
 	
-	img
+	p
 		{
-		width: 100%;
+		font-size: 18px;
 		}
 	
-	}
-
-#gallery3
-	{
-	height: 480vw;
+	h3
+		{
+		font-size: 30px;
+		}
 	
-	img
+	input
 		{
 		width: 100%;
-		}	
+		height: 30px;
+		font-size: 20px;
+		font-family: @lato;
+		margin: 10px auto;
+		border: 1px solid @green;
+		border-radius: 5px;
+		text-indent: 10px;
+		}
+	
+	input:focus
+		{
+		box-shadow: 1px 1px 8px rgba(0,0,0,0.4);
+		}
+	
+	.submit
+		{
+		width: 200px;
+		display: block;
+		margin: 50px auto 0 auto;
+		
+		input
+			{
+			width: 200px;
+			height: 50px;
+			font-size: 26px;
+			}
+		}
+	
+	.submit:hover
+		{
+		input
+			{
+			box-shadow: 1px 1px 8px rgba(0,0,0,0.4);
+			}
+		}
+	
+	#checkbox
+		{
+		width: 100%;
+		height: auto;
+		margin: 8px auto;
+		padding: 0;
+		display: block;
+		}
+	
+	.checkbox
+		{
+		label, h4
+			{
+			font-family: @lato;
+			font-size: 16px;
+			width: 94%;
+			padding: 1px 0 1px 30px;
+			margin: 1px 0;
+			}	
+		input
+			{
+			width: 20px;
+			height: 20px;
+			float: left;
+			.no-pad;
+			margin-top: 2px;
+			}
+		}
+		
+	textarea
+		{
+		width: 100%;
+		height: 10em;
+		font-family: @lato;
+		font-size: 20px;
+		color: @green;
+		}
 	}
 
-#gal_p
-	{
-	width: 100%;
-	height: 40vw;
-	}
 
-}
 
 /* --- Index.html responsive style  --- */
 
@@ -1566,12 +2494,24 @@ p
 	background-size: 180% auto;
 	height: 220px;
 	}
+
+.under-600
+	{
+	display: block;
+	}
 }
 
-@media all and (max-width: 1199px) and (min-width: 300px)
+@media all and (max-width: 1199px) and (min-width: 0px)
 {
 .deskonly
 	{
 	display: none;
 	}
 }
+
+
+
+
+
+
+

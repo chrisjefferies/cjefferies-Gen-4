@@ -1,0 +1,423 @@
+/* --- Gallery --- */
+
+#article-projects
+	{
+	margin-bottom: 40px;
+	h2
+		{
+		text-align: center;
+		font-size: 40px;
+		color: @grayd;
+		padding-bottom: 15px;
+		}
+	p
+		{
+		width: 90%;
+		max-width: 500px;
+		margin: 5px auto;
+		}	
+	}
+
+#project-title
+	{
+	h2
+		{
+		text-align: center;
+		padding: 15px;
+		}
+	}	
+
+#webinfoboxes
+	{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 50px;
+	a
+		{
+		display: block;
+		width: 100%;
+		height: 20vw;	
+		}
+	}
+	
+#webinfoboxes article
+	{
+	position: relative;
+	float: left;
+	margin: 0;
+	width: 50%;
+	background-color: @grayd;
+	opacity: 1;			
+	-webkit-transition: opacity 0.5s ease-in-out;
+       -moz-transition: opacity 0.5s ease-in-out;
+        -ms-transition: opacity 0.5s ease-in-out;
+         -o-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+	}	
+	
+#webinfoboxes article:hover
+	{
+	opacity: 0.85;
+	transition: all 0.5s linear;
+	
+	h2
+		{
+		color: @green;
+		transition: all 0.5s linear;
+		}
+	
+	}	
+	
+#checks
+	{
+	font-family: 'ubuntu';
+	color: @ygreen;
+	padding: 0px 10px 0px 0px;
+	}		
+	
+#project1
+	{
+	height: 20vw;	
+	background-image: url('../images/azw_home.png');
+	background-position: center center;
+	background-size: auto 100%;
+	}
+
+/*	
+#project2
+	{
+	#project1;
+	background-image: url('../images/adc_home.png');	
+	}
+*/
+	
+#project3
+	{	
+	#project1;
+	background-image: url('../images/snworks.png');	
+	}
+
+#project4
+	{
+	#project1;
+	background-image: url('../gallery/gal_shadow-02.png');
+	}
+
+#project5
+	{
+	#project1;
+	background-image: url('../gallery/bfa-poster.png');
+	}
+	
+#intro-w
+	{
+	#intro;
+	padding: 50px 0;
+	height: 350px;
+	padding-bottom: 42vw;
+	}
+
+#gallery-bg
+	{
+	display: block;
+	width: 100%;
+	}
+	
+#gallery
+	{
+	height: 50vw;
+	background-color: @grayd;
+	
+	img
+		{
+		width: 25%;
+		height: auto;
+		overflow: hidden;
+		display: block;
+		float: left;
+		opacity: 0.5;
+		-webkit-transition: opacity 0.25s ease-in-out;
+	       -moz-transition: opacity 0.25s ease-in-out;
+     	   -ms-transition: opacity 0.25s ease-in-out;
+	         -o-transition: opacity 0.25s ease-in-out;
+     	       transition: opacity 0.25s ease-in-out;
+		}	
+	}
+
+#gallery img:hover
+	{
+	opacity: 1;
+	-webkit-transition: opacity 0.25s ease-in-out;
+       -moz-transition: opacity 0.25s ease-in-out;
+        -ms-transition: opacity 0.25s ease-in-out;
+         -o-transition: opacity 0.25s ease-in-out;
+            transition: opacity 0.25s ease-in-out;
+	}
+
+#gallery3
+	{
+	height: 75vw;
+	background-color: @grayd;
+	
+	img
+		{
+		width: 25%;
+		height: auto;
+		overflow: hidden;
+		display: block;
+		float: left;
+		opacity: 0.5;
+		-webkit-transition: opacity 0.25s ease-in-out;
+	       -moz-transition: opacity 0.25s ease-in-out;
+     	   -ms-transition: opacity 0.25s ease-in-out;
+	         -o-transition: opacity 0.25s ease-in-out;
+     	       transition: opacity 0.25s ease-in-out;
+		}	
+	}
+
+#gallery3 img:hover
+	{
+	opacity: 1;
+	-webkit-transition: opacity 0.25s ease-in-out;
+       -moz-transition: opacity 0.25s ease-in-out;
+        -ms-transition: opacity 0.25s ease-in-out;
+         -o-transition: opacity 0.25s ease-in-out;
+            transition: opacity 0.25s ease-in-out;
+	}
+
+#gallery-top
+	{
+	
+	h2
+		{
+		width: 90%;
+		margin: 15px auto;
+		padding-top: 10px;
+		color: @grayd;
+		font-size: 40px;
+		text-align: center;
+		}
+	
+	h3
+		{
+		width: 90%;
+		margin: 15px auto;
+		padding-top: 10px;
+		color: @ygreen;
+		}
+	p
+		{
+		width: 90%;
+		margin: 20px auto;
+		text-align: center;
+		}
+	}
+
+#gal_p
+	{
+	width: 25%;
+	height: 25vw;
+	display: inline;
+	float: left;
+	background-image: url('../images/ticks.png');
+	
+	p, h2
+		{
+		margin: 10px 20px 10px 20px;
+		}
+	h2
+		{
+		color: @ygreen;
+		}
+		
+	}
+
+#gal_sp
+	{
+	width: 100%;
+	height: 100px;
+	display: block;
+	}
+	
+#button-gal
+	{
+	#button;
+	
+	h2
+		{
+		.no-pad;
+		text-align: center;
+		width: 200px;
+		height: 40px;
+		padding: 20px 0 10px 0;
+		color: @blue;
+		}
+	}
+
+@media all and (max-width: 1100px) and (min-width: 10px)
+{
+#gallery
+	{
+	height: 120vw;
+	}
+
+#gallery-item
+	{
+	width: 50%;
+	height: 30vw;
+	display: inline;
+	float: left;
+	overflow: hidden;
+	
+	img
+		{
+		width: 100%;
+		}
+	
+	}
+
+#gallery3
+	{
+	height: 180vw;
+	
+	img
+		{
+		width: 100%;
+		}	
+	}
+
+#gal_p
+	{
+	width: 100%;
+	height: 30vw;
+	}
+
+}
+
+@media all and (max-width: 600px) and (min-width: 10px)
+{
+#gallery
+	{
+	height: 320vw;
+	}
+
+#gallery-item
+	{
+	width: 100%;
+	height: 40vw;
+	display: inline;
+	float: left;
+	overflow: hidden;
+	
+	img
+		{
+		width: 100%;
+		}
+	
+	}
+
+#gallery3
+	{
+	height: 480vw;
+	
+	img
+		{
+		width: 100%;
+		}	
+	}
+
+#gal_p
+	{
+	width: 100%;
+	height: 40vw;
+	}
+
+}
+
+
+
+/* --- Alpha Dog Customs Portfolio Project page styles --- */
+
+#intro-adcguns
+	{
+	width: 50%;
+	margin: 0 auto;
+	h2
+		{
+		text-align: center;
+		font-size: 40px;
+		color: @green;
+		margin: 40px 0 20px 0;
+		}
+	p
+		{
+		padding: 5px 0;	
+		}
+		
+	}
+
+#story-adcguns
+	{
+	display: block;
+	width: 100%;
+	padding-top: 90px;
+
+	h2
+		{
+		font-size: 32px;
+		padding-top: 40px;
+		text-align: center;
+		}
+	
+	p
+		{
+		width: 40%;
+		margin: 60px auto 30px auto;
+		}
+		
+	img
+		{
+		width: 80%;
+		height: auto;
+		display: block;
+		margin: 20px auto;
+		}
+	
+	.width60imgs
+		{
+		width: 60%;
+		height: auto;
+		display: block;
+		margin: 20px auto;
+		}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

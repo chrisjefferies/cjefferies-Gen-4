@@ -1,0 +1,2655 @@
+/*colors*//* sublimey colors */
+/*fonts*//*classes*/.no-pad {
+  margin: 0;
+  padding: 0;
+}
+.zero-30 {
+  background: #ffffff;
+  /* Legacy */
+
+  background: -moz-linear-gradient(top, #ffffff 0%, #dcdcdc 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #dcdcdc));
+  /* Chrome, Safari4 */
+
+  background: -webkit-linear-gradient(top, #ffffff 0%, #dcdcdc 100%);
+  /* Chrome10+, Safari5.1+ */
+
+  background: -o-linear-gradient(top, #ffffff 0%, #dcdcdc 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #ffffff 0%, #dcdcdc 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #ffffff 0%, #dcdcdc 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#c4c4c4', GradientType=0);
+  /* IE6-9 */
+
+}
+.sk {
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  height: 270px;
+  display: block;
+  float: left;
+}
+/* --- end variable definitions --- */
+#beta {
+  width: 100%;
+  height: auto;
+  background-color: #f02225;
+}
+#beta h2,
+#beta p {
+  padding-top: 10px;
+  text-align: center;
+  color: #fff;
+  max-width: 80%;
+  margin: 0 auto;
+}
+#beta p {
+  padding-bottom: 20px;
+}
+/* --- base styles --- */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #c7cacb;
+  font-family: 'ubuntu', 'helvetica neue', 'helvetica', 'arial', sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  color: #c7cacb;
+  font-family: 'ubuntu', 'helvetica neue', 'helvetica', 'arial', sans-serif;
+  font-weight: 400;
+}
+h3 {
+  margin: 0;
+  padding: 0;
+  color: #c7cacb;
+  font-family: 'ubuntu', 'helvetica neue', 'helvetica', 'arial', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  padding-top: 90px;
+  text-align: center;
+}
+p {
+  margin: 0;
+  padding: 0;
+  font-family: 'sintony', 'times', 'times new roman', serif;
+  color: #292b2b;
+}
+/* --- story section intro styles --- */
+#intro {
+  display: block;
+  height: 550px;
+  width: 100%;
+  padding-top: 30px;
+}
+.left-hero {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 12vw;
+}
+.left-hero h1 {
+  padding-top: 10px;
+}
+#hero {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  float: left;
+}
+#hero p {
+  width: 60%;
+  min-width: 200px;
+  padding-top: 20px;
+  margin: 0 auto;
+  text-align: left;
+}
+#macbook {
+  margin: 0;
+  padding: 0;
+  float: right;
+  display: block;
+  width: 50%;
+  max-width: 801px;
+  height: 570px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 135% auto;
+  background-image: url('../images/macbook.png');
+  margin-top: 15px;
+  padding: 15px 0;
+}
+#bottom-grad {
+  width: 100%;
+  height: 100px;
+  background: #ffffff;
+  /* Legacy */
+
+  background: -moz-linear-gradient(top, #ffffff 0%, #dcdcdc 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #dcdcdc));
+  /* Chrome, Safari4 */
+
+  background: -webkit-linear-gradient(top, #ffffff 0%, #dcdcdc 100%);
+  /* Chrome10+, Safari5.1+ */
+
+  background: -o-linear-gradient(top, #ffffff 0%, #dcdcdc 100%);
+  /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top, #ffffff 0%, #dcdcdc 100%);
+  /* IE10+ */
+
+  background: linear-gradient(to bottom, #ffffff 0%, #dcdcdc 100%);
+  /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#c4c4c4', GradientType=0);
+  /* IE6-9 */
+
+}
+#bottom-line {
+  display: block;
+  width: 100%;
+  height: 10px;
+  background-color: #d2d2d2;
+}
+/* --- story section 1 styles --- */
+#story1 {
+  display: block;
+  height: 750px;
+  width: 100%;
+  padding-top: 50px;
+  background-image: url('../images/textured_paper.png');
+}
+#story1 h2 {
+  font-size: 32px;
+  padding-top: 40px;
+  text-align: center;
+  color: #bbbd2d;
+}
+#story1 p {
+  width: 90%;
+  max-width: 550px;
+  margin: 15px auto;
+}
+#azw {
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  background-image: url('../images/ipad.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+#button {
+  display: block;
+  width: 200px;
+  height: 70px;
+  background-color: #c7cacb;
+  margin: 30px auto;
+  transition: all 0.5s ease;
+}
+#button h3 {
+  margin: 0;
+  padding: 0;
+  padding: 21px 0;
+  font-size: 22px;
+  font-family: 'ubuntu', 'helvetica neue', 'helvetica', 'arial', sans-serif;
+  color: #fff;
+}
+#button a {
+  text-decoration: none;
+}
+#button:hover {
+  background-color: #326574;
+  transition: all 0.5s ease;
+}
+#button:hover h3 {
+  color: #c7cacb;
+}
+/* --- story section 2 styles --- */
+#story2 {
+  display: block;
+  height: 750px;
+  width: 100%;
+  padding-top: 50px;
+  background-image: url('../images/textured_paper.png');
+  margin: 0;
+  padding: 0;
+  background-image: none;
+  height: 740px;
+}
+#story2 h2 {
+  font-size: 32px;
+  padding-top: 40px;
+  text-align: center;
+  color: #bbbd2d;
+}
+#story2 p {
+  width: 90%;
+  max-width: 550px;
+  margin: 15px auto;
+}
+#alphacover {
+  width: 45%;
+  height: 750px;
+  float: left;
+  display: block;
+  background-image: url('../images/alpha_dog_cover.png');
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+#wrap {
+  width: 40%;
+  margin-left: 10%;
+  height: 800px;
+  display: block;
+  float: left;
+}
+#wrap h2 {
+  margin: 0;
+  padding: 0;
+  padding-top: 200px;
+  color: #292b2b;
+  text-align: left;
+}
+#article3 {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  width: 100%;
+  display: block;
+  float: left;
+  margin: 20px 0;
+  padding: 50px 0;
+}
+#article3 p {
+  width: 60%;
+  min-width: 200px;
+  padding-top: 20px;
+  margin: 0 auto;
+  text-align: left;
+}
+#article3 p {
+  width: 70%;
+  margin: 0;
+  padding-top: 0px;
+}
+#button2 {
+  width: 200px;
+  height: 70px;
+  background-color: #c7cacb;
+  margin: 30px auto;
+  transition: all 0.5s ease;
+  display: block;
+  margin: 250px 0 0 0;
+}
+#button2 h3 {
+  margin: 0;
+  padding: 0;
+  padding: 21px 0;
+  font-size: 22px;
+  font-family: 'ubuntu', 'helvetica neue', 'helvetica', 'arial', sans-serif;
+  color: #fff;
+}
+#button2 a {
+  text-decoration: none;
+}
+/*
+#adc-logo
+	{
+	width: 31%;
+	height: 250px;
+	display: block;
+	margin: 20px 1%;
+	float: left;
+	background-image: url('../images/sp_alph.png');
+	background-position: center center;
+	background-size: 150% auto;
+	background-repeat: no-repeat;
+	}
+
+#adc-sign
+	{
+	#adc-logo;
+	background-image: url('../images/adc-sign.png');
+	}
+
+*/
+/* --- story section 3 styles --- */
+#story3 {
+  display: block;
+  height: 750px;
+  width: 100%;
+  padding-top: 50px;
+  background-image: url('../images/textured_paper.png');
+  margin: 0;
+  padding: 0;
+  background-image: none;
+  height: 740px;
+  margin-top: 50px;
+}
+#story3 h2 {
+  font-size: 32px;
+  padding-top: 40px;
+  text-align: center;
+  color: #bbbd2d;
+}
+#story3 p {
+  width: 90%;
+  max-width: 550px;
+  margin: 15px auto;
+}
+#sk-a1,
+#sk-a2,
+#sk-a3,
+#sk-a4,
+#sk-b1,
+#sk-b2,
+#sk-b3,
+#sk-b4,
+#sk-c1,
+#sk-c2,
+#sk-c3,
+#sk-c4 {
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  height: 270px;
+  display: block;
+  float: left;
+}
+#sk-a1 p,
+#sk-a2 p,
+#sk-a3 p,
+#sk-a4 p,
+#sk-b1 p,
+#sk-b2 p,
+#sk-b3 p,
+#sk-b4 p,
+#sk-c1 p,
+#sk-c2 p,
+#sk-c3 p,
+#sk-c4 p {
+  width: auto;
+  padding: 20px;
+}
+#sk-a1 {
+  background-image: url('../images/t120-1.png');
+  background-position: top left;
+}
+#sk-a2 {
+  background-image: url('../images/ticks.png');
+  background-position: top left;
+}
+#sk-a2 h2 {
+  color: #292b2b;
+  font-size: 44px;
+}
+#sk-a3 {
+  background-image: url('../images/fanuc.png');
+  background-position: center center;
+}
+#sk-a4 {
+  background-image: url('../images/faces.png');
+  background-position: top center;
+}
+#sk-b1 {
+  background-image: url('../images/ale_fiber.png');
+  background-position: top center;
+}
+#sk-b2 {
+  background-image: url('../images/thedevil.png');
+  background-position: top center;
+  background-size: 100% auto;
+}
+#sk-b4 {
+  background-image: url('../images/code-01.png');
+  background-position: top center;
+  background-size: 100% auto;
+}
+#article4 {
+  height: 600px;
+}
+#button3 {
+  display: block;
+  width: 200px;
+  height: 70px;
+  background-color: #c7cacb;
+  margin: 30px auto;
+  transition: all 0.5s ease;
+  width: 300px;
+}
+#button3 h3 {
+  margin: 0;
+  padding: 0;
+  padding: 21px 0;
+  font-size: 22px;
+  font-family: 'ubuntu', 'helvetica neue', 'helvetica', 'arial', sans-serif;
+  color: #fff;
+}
+#button3 a {
+  text-decoration: none;
+}
+/* --- story section 4 styles --- */
+#story4 {
+  display: block;
+  height: 750px;
+  width: 100%;
+  padding-top: 50px;
+  background-image: url('../images/textured_paper.png');
+  margin: 0;
+  padding: 0;
+  background-image: none;
+  height: 740px;
+  height: 900px;
+}
+#story4 h2 {
+  font-size: 32px;
+  padding-top: 40px;
+  text-align: center;
+  color: #bbbd2d;
+}
+#story4 p {
+  width: 90%;
+  max-width: 550px;
+  margin: 15px auto;
+}
+#graphwrapper {
+  width: 65%;
+  height: 750px;
+  display: block;
+  margin: 50px auto 60px auto;
+}
+#graphwrapper h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 32px;
+  color: #292b2b;
+}
+#graph {
+  display: block;
+  width: 49%;
+  height: 640px;
+  background-color: #292b2b;
+  float: left;
+}
+#graph h2 {
+  font-size: 24px;
+  padding: 10px 0 15px 0;
+  margin: 0;
+  text-align: left;
+  color: #bbbd2d;
+}
+#graph p {
+  padding-top: 590px;
+  color: #c7cacb;
+  width: 90%;
+}
+#paragraph {
+  display: block;
+  width: 49%;
+  height: 640px;
+  background-color: #292b2b;
+  float: left;
+  float: right;
+}
+#paragraph h2 {
+  font-size: 24px;
+  padding: 10px 0 15px 0;
+  margin: 0;
+  text-align: left;
+  color: #bbbd2d;
+}
+#paragraph p {
+  padding-top: 590px;
+  color: #c7cacb;
+  width: 90%;
+}
+#paragraph h2 {
+  margin: 0;
+  padding: 0;
+  padding: 30px 0 0 20px;
+}
+#paragraph img {
+  width: 40px;
+  padding-left: 20px;
+  height: 40px;
+}
+#paragraph h3 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  padding: 30px 0 10px 20px;
+  color: #8765a6;
+}
+#paragraph p {
+  margin: 0;
+  padding: 0;
+  padding: 0 0 5px 30px;
+  color: #c7cacb;
+}
+#skill-icons {
+  width: 40px;
+  padding: 20px 20px 0 20px;
+  float: left;
+}
+#skill-icons img {
+  padding-bottom: 10px;
+  width: 40px;
+  height: 40px;
+}
+#skill-bars {
+  margin: 20px 10px 0 0;
+  width: 150px;
+  height: 530px;
+  display: block;
+  float: left;
+}
+#skill-bars h3 {
+  margin: 0;
+  padding: 0;
+  padding: 6px 0 22px 0;
+  text-align: left;
+}
+#full {
+  width: 100%;
+  height: 40px;
+  margin: 0 0 16px 0;
+  background-color: black;
+}
+#seventy {
+  width: 100%;
+  height: 40px;
+  margin: 0 0 16px 0;
+  background-color: black;
+  width: 70%;
+}
+#sixty {
+  width: 100%;
+  height: 40px;
+  margin: 0 0 16px 0;
+  background-color: black;
+  width: 60%;
+}
+#fifty {
+  width: 100%;
+  height: 40px;
+  margin: 0 0 16px 0;
+  background-color: black;
+  width: 50%;
+}
+#fourty-five {
+  width: 100%;
+  height: 40px;
+  margin: 0 0 16px 0;
+  background-color: black;
+  width: 45%;
+}
+#thirty {
+  width: 100%;
+  height: 40px;
+  margin: 0 0 16px 0;
+  background-color: black;
+  width: 30%;
+}
+#twenty-five {
+  width: 100%;
+  height: 40px;
+  margin: 0 0 16px 0;
+  background-color: black;
+  width: 25%;
+}
+/* --- story section 5 styles --- */
+#story5 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  background-color: #292b2b;
+}
+#download-link {
+  width: 90%;
+  max-width: 500px
+	padding: 0;
+  margin: 0 auto;
+  display: block;
+}
+#download-link h2 {
+  text-align: center;
+  font-size: 32px;
+  padding: 95px 0;
+}
+#download-link h2 a {
+  color: #bbbd2d;
+  text-decoration: none;
+}
+#download-link h2 a:hover {
+  text-decoration: underline;
+}
+/* --- story6 section styles --- */
+#story6 {
+  background-image: url(../images/story6-bg-01.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-color: #c7cacb;
+  padding-bottom: 30px;
+  margin: 0;
+}
+#story6 h2 {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 44px;
+  color: #bbbd2d;
+}
+#story6 p {
+  color: #fff;
+}
+#story6 article {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+#story6 #button3 {
+  width: 200px;
+  height: 70px;
+  background-color: #c7cacb;
+  margin: 30px auto;
+  transition: all 0.5s ease;
+  display: block;
+  margin: 20px auto;
+}
+#story6 #button3 h3 {
+  margin: 0;
+  padding: 0;
+  padding: 21px 0;
+  font-size: 22px;
+  font-family: 'ubuntu', 'helvetica neue', 'helvetica', 'arial', sans-serif;
+  color: #fff;
+}
+#story6 #button3 a {
+  text-decoration: none;
+}
+#story6 #button3 a {
+  width: 100%;
+  padding: 23px 0;
+  font-size: 20px;
+  font-family: 'ubuntu', 'helvetica neue', 'helvetica', 'arial', sans-serif;
+  text-align: center;
+  display: block;
+}
+#story6 #button3 a:active,
+#story6 #button3 a:visited,
+#story6 #button3 a:link {
+  color: #fff;
+}
+#story6 #button4 {
+  width: 200px;
+  height: 70px;
+  background-color: #c7cacb;
+  margin: 30px auto;
+  transition: all 0.5s ease;
+  display: block;
+  margin: 20px auto;
+  margin-bottom: 100px;
+}
+#story6 #button4 h3 {
+  margin: 0;
+  padding: 0;
+  padding: 21px 0;
+  font-size: 22px;
+  font-family: 'ubuntu', 'helvetica neue', 'helvetica', 'arial', sans-serif;
+  color: #fff;
+}
+#story6 #button4 a {
+  text-decoration: none;
+}
+#story6 #button4 a {
+  width: 100%;
+  padding: 23px 0;
+  font-size: 20px;
+  font-family: 'ubuntu', 'helvetica neue', 'helvetica', 'arial', sans-serif;
+  text-align: center;
+  display: block;
+}
+#story6 #button4 a:active,
+#story6 #button4 a:visited,
+#story6 #button4 a:link {
+  color: #fff;
+}
+#story6 a {
+  width: 100%;
+  padding: 23px 0;
+  font-size: 20px;
+  font-family: 'ubuntu', 'helvetica neue', 'helvetica', 'arial', sans-serif;
+  text-align: center;
+  display: block;
+}
+#story6 a:active,
+#story6 a:visited,
+#story6 a:link {
+  color: #fff;
+}
+/* --- footer styles --- */
+#footer {
+  width: 100%;
+  height: 470px;
+  display: block;
+  background-image: url('../images/binding_dark.png');
+}
+#footer img {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  display: block;
+}
+#footer h2,
+#footer p {
+  padding-top: 10px;
+  color: #70763c;
+  text-align: center;
+  font-size: 22px;
+}
+#footer h2 {
+  padding-top: 20px;
+  color: #c13471;
+}
+#footer p {
+  color: #bbbd2d;
+  font-size: 14px;
+}
+#footer-nh {
+  width: 100%;
+  height: 470px;
+  display: block;
+  background-image: url('../images/binding_dark.png');
+  height: 300px;
+}
+#footer-nh img {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  display: block;
+}
+#footer-nh h2,
+#footer-nh p {
+  padding-top: 10px;
+  color: #70763c;
+  text-align: center;
+  font-size: 22px;
+}
+#footer-nh h2 {
+  padding-top: 20px;
+  color: #c13471;
+}
+#footer-nh p {
+  color: #bbbd2d;
+  font-size: 14px;
+}
+#buttons {
+  width: 200px;
+  height: 100px;
+  margin: 40px auto;
+}
+#button-work {
+  width: 200px;
+  height: 70px;
+  background-color: #c7cacb;
+  margin: 30px auto;
+  transition: all 0.5s ease;
+  display: block;
+  float: left;
+  margin: 0 auto;
+}
+#button-work h3 {
+  margin: 0;
+  padding: 0;
+  padding: 21px 0;
+  font-size: 22px;
+  font-family: 'ubuntu', 'helvetica neue', 'helvetica', 'arial', sans-serif;
+  color: #fff;
+}
+#button-work a {
+  text-decoration: none;
+}
+#button-work h2 {
+  font-size: 28px;
+  padding: 15px 0 22px 0;
+  color: #fff;
+}
+/* portfolio.less stand alone styles for /portfolio.html with fancybox and parallax scrolling */
+header {
+  text-align: center;
+  padding: 40px 0 20px 0;
+}
+header h2 {
+  font-size: 30px;
+  color: #326574;
+  padding: 0 0 5px 0;
+}
+#portfolio-wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+#portfolio-wrapper a {
+  width: 80%;
+}
+.project1-styles {
+  width: 99%;
+  height: 80vh;
+  margin: 0 auto;
+  display: block;
+}
+.sp {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  height: 40px;
+  background-color: #fff;
+}
+.onhover {
+  display: none;
+}
+#project-bfa {
+  width: 99%;
+  height: 80vh;
+  margin: 0 auto;
+  display: block;
+  background: #ffffff url("../portfolio/bfa-video.png") no-repeat center center;
+  background-size: auto 90%;
+  transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+  /* For Safari & Chrome */
+
+  -moz-transition: all 1.5s ease;
+  /* For Firefox */
+
+  -o-transition: all 1.5s ease;
+  /* For Opera */
+
+}
+#project-bfa:hover {
+  background-size: auto 92%;
+  transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+  /* For Safari & Chrome */
+
+  -moz-transition: all 1.5s ease;
+  /* For Firefox */
+
+  -o-transition: all 1.5s ease;
+  /* For Opera */
+
+}
+#project-azw {
+  width: 99%;
+  height: 80vh;
+  margin: 0 auto;
+  display: block;
+  background: #ffffff url("../portfolio/azw-imac.png") no-repeat center center;
+  background-size: auto 90%;
+  transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+  /* For Safari & Chrome */
+
+  -moz-transition: all 1.5s ease;
+  /* For Firefox */
+
+  -o-transition: all 1.5s ease;
+  /* For Opera */
+
+}
+#project-azw:hover {
+  background-size: auto 92%;
+  transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+  /* For Safari & Chrome */
+
+  -moz-transition: all 1.5s ease;
+  /* For Firefox */
+
+  -o-transition: all 1.5s ease;
+  /* For Opera */
+
+}
+#project-snworks {
+  width: 99%;
+  height: 80vh;
+  margin: 0 auto;
+  display: block;
+  background: #ffffff url("../portfolio/snworks-floater.png") no-repeat center center;
+  background-size: auto 90%;
+  transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+  /* For Safari & Chrome */
+
+  -moz-transition: all 1.5s ease;
+  /* For Firefox */
+
+  -o-transition: all 1.5s ease;
+  /* For Opera */
+
+}
+#project-snworks:hover {
+  background-size: auto 92%;
+  transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+  /* For Safari & Chrome */
+
+  -moz-transition: all 1.5s ease;
+  /* For Firefox */
+
+  -o-transition: all 1.5s ease;
+  /* For Opera */
+
+}
+#project-shadow {
+  width: 99%;
+  height: 80vh;
+  margin: 0 auto;
+  display: block;
+  background: #ffffff url("../portfolio/shadow-floater-02.png") no-repeat center center;
+  background-size: auto 90%;
+  transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+  /* For Safari & Chrome */
+
+  -moz-transition: all 1.5s ease;
+  /* For Firefox */
+
+  -o-transition: all 1.5s ease;
+  /* For Opera */
+
+}
+#project-shadow:hover {
+  background-size: auto 92%;
+  transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+  /* For Safari & Chrome */
+
+  -moz-transition: all 1.5s ease;
+  /* For Firefox */
+
+  -o-transition: all 1.5s ease;
+  /* For Opera */
+
+}
+#project-ubuntu {
+  width: 99%;
+  height: 80vh;
+  margin: 0 auto;
+  display: block;
+  background: #ffffff url("../portfolio/ubuntu-imac.png") no-repeat center center;
+  background-size: auto 90%;
+  transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+  /* For Safari & Chrome */
+
+  -moz-transition: all 1.5s ease;
+  /* For Firefox */
+
+  -o-transition: all 1.5s ease;
+  /* For Opera */
+
+}
+#project-ubuntu:hover {
+  background-size: auto 92%;
+  transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+  /* For Safari & Chrome */
+
+  -moz-transition: all 1.5s ease;
+  /* For Firefox */
+
+  -o-transition: all 1.5s ease;
+  /* For Opera */
+
+}
+#project-illustration {
+  width: 99%;
+  height: 80vh;
+  margin: 0 auto;
+  display: block;
+  background: #ffffff url("../portfolio/vikings.png") no-repeat center center;
+  background-size: auto 90%;
+  transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+  /* For Safari & Chrome */
+
+  -moz-transition: all 1.5s ease;
+  /* For Firefox */
+
+  -o-transition: all 1.5s ease;
+  /* For Opera */
+
+}
+#project-illustration:hover {
+  background-size: auto 92%;
+  transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+  /* For Safari & Chrome */
+
+  -moz-transition: all 1.5s ease;
+  /* For Firefox */
+
+  -o-transition: all 1.5s ease;
+  /* For Opera */
+
+}
+@media all and (min-width: 1px) and (max-width: 600px) {
+  #project-bfa,
+  #project-azw,
+  #project-snworks,
+  #project-shadow,
+  #project-ubuntu,
+  #project-illustration {
+    height: 80vw;
+  }
+  #project-bfa {
+    background-size: auto 85%;
+  }
+  #project-bfa:hover {
+    background-size: auto 87%;
+  }
+}
+#grid-wrapper {
+  padding-top: 100px;
+  width: 100%;
+  height: 65vw;
+}
+.portfolio-grid {
+  width: 19%;
+  height: 19vw;
+  float: left;
+  margin: 10px 0.5%;
+  overflow: hidden;
+}
+.portfolio-grid img {
+  opacity: 1;
+  transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+  /* For Safari & Chrome */
+
+  -moz-transition: all 1.5s ease;
+  /* For Firefox */
+
+  -o-transition: all 1.5s ease;
+  /* For Opera */
+
+}
+.portfolio-grid .filled {
+  width: 100%;
+  height: 100%;
+  background-color: #fdc62a;
+}
+.portfolio-grid .filled p {
+  color: #eee;
+  text-align: center;
+  padding: 30px 30px;
+  color: #326574;
+}
+.portfolio-grid .filled p a {
+  text-decoration: none;
+  color: #f02225;
+}
+.portfolio-grid .filled p a:hover {
+  color: #292b2b;
+}
+@media all and (max-width: 450px) {
+  .portfolio-grid .filled p {
+    padding: 15px 15px;
+  }
+}
+@media all and (max-width: 1279px) {
+  .portfolio-grid {
+    width: 24%;
+    height: 24vw;
+  }
+  #grid-wrapper {
+    height: 160vw;
+  }
+}
+@media all and (max-width: 800px) {
+  .portfolio-grid {
+    width: 32%;
+    height: 32vw;
+  }
+  #grid-wrapper {
+    height: 160vw;
+  }
+}
+.portfolio-grid:hover img {
+  opacity: 0.6;
+  transition: all 1.5s ease;
+  -webkit-transition: all 1.5s ease;
+  /* For Safari & Chrome */
+
+  -moz-transition: all 1.5s ease;
+  /* For Firefox */
+
+  -o-transition: all 1.5s ease;
+  /* For Opera */
+
+}
+/* --- Projects page styles --- */
+/* --- Universal Portfolio Project page styles --- */
+#proj-bottom {
+  display: block;
+  height: 750px;
+  width: 100%;
+  padding-top: 50px;
+  background-image: url('../images/textured_paper.png');
+  margin: 0;
+  padding: 0;
+  background-image: none;
+  height: 740px;
+  height: 200px;
+}
+#proj-bottom h2 {
+  font-size: 32px;
+  padding-top: 40px;
+  text-align: center;
+  color: #bbbd2d;
+}
+#proj-bottom p {
+  width: 90%;
+  max-width: 550px;
+  margin: 15px auto;
+}
+#proj-buttons {
+  width: 440px;
+  height: 100px;
+  margin: 110px auto 0 auto;
+}
+#proj-buttons #button-proj {
+  width: 200px;
+  height: 70px;
+  background-color: #c7cacb;
+  margin: 30px auto;
+  transition: all 0.5s ease;
+  display: block;
+  margin: 250px 0 0 0;
+  margin: 50px 10px;
+  float: left;
+}
+#proj-buttons #button-proj h3 {
+  margin: 0;
+  padding: 0;
+  padding: 21px 0;
+  font-size: 22px;
+  font-family: 'ubuntu', 'helvetica neue', 'helvetica', 'arial', sans-serif;
+  color: #fff;
+}
+#proj-buttons #button-proj a {
+  text-decoration: none;
+}
+#return-link {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #292b2b;
+}
+#return-link a {
+  font-family: 'ubuntu', 'helvetica neue', 'helvetica', 'arial', sans-serif;
+  font-size: 80px;
+  color: #bbbd2d;
+  margin: 20px 0 0 80%;
+  text-decoration: none;
+}
+#return-link a:hover {
+  color: #fdc62a;
+}
+#sp {
+  width: 80%;
+  margin: 20px auto 30px auto;
+  display: block;
+  padding: 0;
+  height: 1px;
+  background-color: #292b2b;
+}
+#checklist {
+  width: 250px;
+  margin: 0 auto 90px auto;
+}
+#checklist img {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 1em;
+  float: left;
+  margin-right: 6px;
+}
+#checklist p {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  margin: 8px 0;
+}
+#blurb-wrap {
+  width: 90%;
+  max-width: 600px;
+  padding: 40px 0 0 0;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#blurb-wrap h4 {
+  font-family: 'sintony', 'times', 'times new roman', serif;
+  font-weight: 400;
+  color: #fdc62a;
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+#blurb-wrap .blurb-section {
+  width: 200px;
+  display: block;
+  float: left;
+}
+#blurb-wrap .blurb-section p {
+  padding-top: 0;
+}
+#blurb-wrap #skill-others {
+  width: 198px;
+  border-right: solid 1px #c7cacb;
+  border-left: solid 1px #c7cacb;
+  margin-bottom: 30px;
+}
+#blurb-wrap #skill-others p {
+  font-size: 12px;
+  padding: 0 0 4px 0;
+}
+@media all and (max-width: 770px) {
+  #blurb-wrap {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  #blurb-wrap .blurb-section {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  #blurb-wrap #skill-others {
+    float: none;
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    margin: 20px 0;
+    border-top: solid 1px #c7cacb;
+    border-bottom: solid 1px #c7cacb;
+    border-right: none;
+    border-left: none;
+  }
+}
+/* --- Arizona Daily Wildcat Portfolio Project 
+
+	And many subsequent Portfolio Page Styles
+	
+	
+
+--- */
+#story-azw {
+  background-color: #292b2b;
+  padding-bottom: 60px;
+}
+#story-azw h1,
+#story-azw h2 {
+  font-size: 32px;
+  color: #326574;
+  text-transform: uppercase;
+  text-align: center;
+}
+#story-azw article {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  clear: both;
+}
+#story-azw article h3 {
+  padding-top: 40px;
+}
+#story-azw article a {
+  text-decoration: none;
+  color: #bbbd2d;
+}
+#story-azw article a h3 {
+  padding-top: 22px;
+}
+#story-azw article a:hover {
+  color: #fdc62a;
+}
+#story-azw p {
+  color: #fff;
+  padding: 6px 0;
+}
+#story-azw h3 {
+  color: #326574;
+}
+#story-azw iframe {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+#a-wrapper {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+#a-wrapper a {
+  text-decoration: none;
+}
+#azw-screenshot {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+#azw-screenshot-2 {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 10px;
+  background-image: url('../images/azw-wireframe-close.png');
+}
+#azw-screenshot-3 {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 10px;
+  background-image: url('../images/azw-wireframe-wide.png');
+}
+#azw-screenshot-4 {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 10px;
+  background-image: url('../images/azw-wireframe-wide.png');
+  width: 100%;
+  background-image: url('../images/azw-spec-wide.png');
+}
+@media all and (min-width: 1200px) {
+  #azw-screenshot,
+  #azw-screenshot-3,
+  #azw-screenshot-4 {
+    height: 550px;
+  }
+  #azw-screenshot-2 {
+    height: 600px;
+  }
+}
+.onhover {
+  display: none;
+}
+.onhover p {
+  height: 40px;
+  text-align: center;
+  background-color: #f02225;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  /* For Safari & Chrome */
+
+  -moz-transition: all 0.5s ease;
+  /* For Firefox */
+
+  -o-transition: all 0.5s ease;
+  /* For Opera */
+
+}
+#azw-screenshot-4:hover > .onhover {
+  display: block;
+}
+#bfa-poster:hover > .onhover {
+  display: block;
+}
+#sha-w-2:hover > .onhover {
+  display: block;
+}
+#github {
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+  background-image: url('../portfolio/github.png');
+  background-position: center center;
+  background-size: 90% auto;
+  background-repeat: no-repeat;
+}
+#github .onhover p {
+  background-color: rgba(240, 34, 37, 0.4);
+  font-size: 30px;
+  text-transform: uppercase;
+  height: 220px;
+}
+#sp-github {
+  width: 80%;
+  margin: 20px auto 30px auto;
+  display: block;
+  height: 1px;
+  background-color: #292b2b;
+  width: 100%;
+  height: 180px;
+  background-color: rgba(240, 34, 37, 0.4);
+  padding: 0;
+  margin: 0;
+}
+#a-wrapper-github {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  margin-bottom: 30px;
+}
+#a-wrapper-github a {
+  text-decoration: none;
+}
+#github:hover > .onhover {
+  display: block;
+}
+#azw-screenshot-5 {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 100px;
+  background-image: url('../portfolio/azw-imac.png');
+  background-size: auto 100%;
+  height: 90vh;
+}
+#azw-duo-images {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: none;
+  height: 30vw;
+  margin-top: 40px;
+}
+#azw-duo-images #azw-mobile-comp {
+  width: 39%;
+  height: 100%;
+  float: left;
+  background-image: url('../images/azw-spec-mob.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+#azw-duo-images #azw-tablet-comp {
+  width: 60%;
+  height: 100%;
+  float: right;
+  background-image: url('../images/azw-spec-tabtop2.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+#azw-duo-images #snw-colors {
+  width: 39%;
+  height: 100%;
+  float: left;
+  background-image: url('../images/azw-spec-mob.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url('../portfolio/snw-colors.png');
+  background-size: 100% auto;
+}
+@media all and (min-width: 1200px) {
+  #azw-duo-images {
+    height: 360px;
+  }
+}
+@media all and (max-width: 650px) {
+  #azw-screenshot-5 {
+    display: none;
+  }
+  #azw-duo-images {
+    width: 100%;
+    height: 125vw;
+  }
+  #azw-duo-images #azw-mobile-comp,
+  #azw-duo-images #azw-tablet-comp {
+    width: 90%;
+    height: 60vw;
+    float: none;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+  }
+}
+#snw-starter {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 30px;
+  height: 41vw;
+  background-image: url('../portfolio/snw-starter.png');
+  background-size: 100% auto;
+}
+#snw-duo-images {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: none;
+  height: 30vw;
+  margin-top: 40px;
+  height: 36vw;
+  margin-top: 1vw;
+}
+#snw-duo-images #azw-mobile-comp {
+  width: 39%;
+  height: 100%;
+  float: left;
+  background-image: url('../images/azw-spec-mob.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+#snw-duo-images #azw-tablet-comp {
+  width: 60%;
+  height: 100%;
+  float: right;
+  background-image: url('../images/azw-spec-tabtop2.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+#snw-duo-images #snw-colors {
+  width: 39%;
+  height: 100%;
+  float: left;
+  background-image: url('../images/azw-spec-mob.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url('../portfolio/snw-colors.png');
+  background-size: 100% auto;
+}
+#snw-duo-images #snw-colors {
+  width: 25%;
+  background-image: url('../portfolio/snw-colors.png');
+  background-size: auto 100%;
+}
+#snw-duo-images #snw-gryphon {
+  width: 60%;
+  height: 100%;
+  float: right;
+  background-image: url('../images/azw-spec-tabtop2.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 74%;
+  background-image: url('../images/snworks-05.png');
+  background-size: auto 100%;
+}
+#snw-type {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 10px;
+  height: 35vw;
+  background-image: url('../portfolio/snw-type.png');
+  background-size: 100% auto;
+}
+#snw-products {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 10px;
+  height: 28vw;
+  background-image: url('../portfolio/snw-products.png');
+  background-size: 100% auto;
+}
+#snw-web {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 10px;
+  height: 50vw;
+  background-image: url('../portfolio/snw-web.png');
+  background-size: 100% auto;
+}
+#snw-foot {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 10px;
+  height: 20.5vw;
+  background-image: url('../portfolio/snw-foot-07.png');
+  background-size: 100% auto;
+}
+#snw-logo {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 100px;
+  background-image: url('../portfolio/snworks-logo.png');
+  background-size: auto 100%;
+}
+@media all and (min-width: 1200px) {
+  #snw-starter {
+    height: 515px;
+  }
+  #snw-type {
+    height: 445px;
+  }
+  #snw-products {
+    height: 340px;
+  }
+  #snw-web {
+    height: 640px;
+  }
+  #snw-foot {
+    height: 260px;
+  }
+  #snw-logo {
+    height: 575px;
+  }
+  #snw-duo-images {
+    height: 435px;
+  }
+  #snw-duo-images #snw-colors {
+    background-image: url('../portfolio/snw-colors.png');
+    background-size: auto 100%;
+    height: 435px;
+  }
+  #snw-duo-images #snw-gryphon {
+    /* #azw-tablet-comp; */
+  
+    background-image: url('../images/snworks-05.png');
+    background-size: auto 100%;
+    height: 435px;
+  }
+}
+#bfa-wrapper #a-wrapper {
+  width: 60%;
+  height: 90vw;
+}
+#bfa-poster {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  background-image: url('../portfolio/bfa-poster.png');
+  background-size: 100% auto;
+}
+#bfa-poster .onhover p {
+  background-color: rgba(240, 34, 37, 0.4);
+  height: 60vw;
+  font-size: 24px;
+}
+#sp-bfa {
+  width: 80%;
+  margin: 20px auto 30px auto;
+  display: block;
+  height: 1px;
+  background-color: #292b2b;
+  width: 100%;
+  height: 30vw;
+  background-color: rgba(240, 34, 37, 0.4);
+  padding: 0;
+  margin: 0;
+}
+@media all and (min-width: 1300px) {
+  .desktop {
+    display: block;
+  }
+  .laptop {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media all and (min-width: 1200px) and (max-width: 1299px) {
+  .desktop {
+    display: none;
+  }
+  .laptop {
+    display: block;
+  }
+  .tablet {
+    display: none;
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media all and (min-width: 900px) and (max-width: 1199px) {
+  .desktop {
+    display: none;
+  }
+  .laptop {
+    display: none;
+  }
+  .tablet {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media all and (min-width: 0px) and (max-width: 899px) {
+  .desktop {
+    display: none;
+  }
+  .laptop {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+#sha-w-1 {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 10px;
+  height: 50vw;
+  background-image: url('../portfolio/sha-w-1.png');
+  background-size: 100% auto;
+}
+#sha-w-image {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 10px;
+  height: 30.5vw;
+  background-image: url('../portfolio/sha-w-image.png');
+  background-size: 100% auto;
+}
+#sha-w-2 {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 10px;
+  height: 50vw;
+  background-image: url('../portfolio/sha-w-2.png');
+  background-size: 100% auto;
+}
+#sha-ident {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 10px;
+  height: 17vw;
+  background-image: url('../portfolio/sha-ident.png');
+  background-size: 100% auto;
+}
+#sha-uie {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 10px;
+  height: 23vw;
+  background-image: url('../portfolio/sha-uie.png');
+  background-size: 100% auto;
+}
+@media all and (min-width: 1200px) {
+  #sha-w-image {
+    height: 390px;
+  }
+  #sha-w-1 {
+    height: 640px;
+  }
+  #sha-w-2 {
+    height: 600px;
+  }
+  #sha-ident {
+    height: 210px;
+  }
+  #sha-uie {
+    height: 280px;
+  }
+}
+#ill-grism {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 90%;
+  margin-top: 10px;
+  height: 55vw;
+  background-image: url('../portfolio/grism.png');
+  background-size: 100% auto;
+}
+#ill-grism-2 {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 90%;
+  margin-top: 10px;
+  height: 34vw;
+  background-image: url('../portfolio/grism-2.png');
+  background-size: 100% auto;
+}
+#ill-michael {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 90%;
+  margin-top: 10px;
+  height: 80vw;
+  background-image: url('../portfolio/michael.png');
+  background-size: auto 100%;
+}
+#ill-t120-1 {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 90%;
+  margin-top: 10px;
+  height: 137vw;
+  background-image: url('../portfolio/t120-1.png');
+  background-size: 100% auto;
+}
+#ill-t120-2 {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 90%;
+  margin-top: 10px;
+  height: 80vw;
+  background-image: url('../portfolio/t120-2.png');
+  background-size: auto 100%;
+}
+#ill-spirit-1 {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 90%;
+  margin-top: 10px;
+  height: 80vw;
+  background-image: url('../portfolio/t120-2.png');
+  background-size: auto 100%;
+  background-image: url('../portfolio/spirit-1.png');
+}
+#ill-spirit-2 {
+  /* This block of styles is literally mixed into dozens of subsequent elements. 
+	Edit with extreme caution. */
+
+  display: block;
+  max-width: 1100px;
+  height: 45vw;
+  margin: 0 auto;
+  background-image: url('../images/azw-disp.png');
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 90%;
+  margin-top: 10px;
+  height: 80vw;
+  background-image: url('../portfolio/t120-2.png');
+  background-size: auto 100%;
+  background-image: url('../portfolio/spirit-2.png');
+}
+@media all and (min-width: 1200px) {
+  #ill-grism {
+    height: 675px;
+  }
+  #ill-grism-2 {
+    height: 415px;
+  }
+  #ill-t120-1 {
+    height: 1700px;
+  }
+}
+/*	
+		 */
+#story-wf {
+  display: block;
+  height: 750px;
+  width: 100%;
+  padding-top: 50px;
+  background-image: url('../images/textured_paper.png');
+  margin: 0;
+  padding: 0;
+  background-image: none;
+  height: 740px;
+  height: 800px;
+}
+#story-wf h2 {
+  font-size: 32px;
+  padding-top: 40px;
+  text-align: center;
+  color: #bbbd2d;
+}
+#story-wf p {
+  width: 90%;
+  max-width: 550px;
+  margin: 15px auto;
+}
+#story-wf img {
+  width: 60%;
+  display: block;
+  float: left;
+  margin: 40px 5% 0 0;
+  box-shadow: 10px 10px 15px #888;
+}
+#story-wf h2 {
+  font-size: 36px;
+  color: #c7cacb;
+}
+#story-wf p {
+  float: right;
+  width: 30%;
+  margin: 40px 5% 0 0;
+}
+#azwimages {
+  width: 100%;
+}
+#azwimages img {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: 60px auto;
+  box-shadow: 10px 10px 15px #ddd;
+}
+#azwimages p {
+  width: 50%;
+  margin: 20px auto;
+}
+#azwimages h2 {
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  color: #292b2b;
+}
+/* --- SNWorks Brand Identity Portfolio Project page styles --- */
+#story-snworks {
+  display: block;
+  height: 750px;
+  width: 100%;
+  padding-top: 50px;
+  background-image: url('../images/textured_paper.png');
+  margin: 0;
+  padding: 0;
+  background-image: none;
+  height: 740px;
+  height: 800px;
+  height: 500px;
+}
+#story-snworks h2 {
+  font-size: 32px;
+  padding-top: 40px;
+  text-align: center;
+  color: #bbbd2d;
+}
+#story-snworks p {
+  width: 90%;
+  max-width: 550px;
+  margin: 15px auto;
+}
+#story-snworks img {
+  width: 60%;
+  display: block;
+  float: left;
+  margin: 40px 5% 0 0;
+  box-shadow: 10px 10px 15px #888;
+}
+#story-snworks h2 {
+  font-size: 36px;
+  color: #c7cacb;
+}
+#story-snworks p {
+  float: right;
+  width: 30%;
+  margin: 40px 5% 0 0;
+}
+#story-snworks h2 {
+  font-size: 32px;
+  color: #c7cacb;
+}
+#snworksimages {
+  width: 100%;
+}
+#snworksimages img {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: 60px auto;
+  box-shadow: 10px 10px 15px #ddd;
+}
+#snworksimages p {
+  width: 50%;
+  margin: 20px auto;
+}
+#snworksimages h2 {
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  color: #292b2b;
+}
+#snworksimages img {
+  width: 60%;
+}
+#snw-bleed {
+  width: 100%;
+}
+#snw-bleed img {
+  width: 100%;
+}
+/* --- Shadow League App Design Styles --- */#story-sha {
+  display: block;
+  height: 750px;
+  width: 100%;
+  padding-top: 50px;
+  background-image: url('../images/textured_paper.png');
+  margin: 0;
+  padding: 0;
+  background-image: none;
+  height: 740px;
+  height: auto;
+}
+#story-sha h2 {
+  font-size: 32px;
+  padding-top: 40px;
+  text-align: center;
+  color: #bbbd2d;
+}
+#story-sha p {
+  width: 90%;
+  max-width: 550px;
+  margin: 15px auto;
+}
+#story-sha img {
+  width: 100%;
+  display: block;
+  margin: 20px auto 0 auto;
+}
+#story-sha h2 {
+  font-size: 32px;
+  color: #c7cacb;
+}
+#story-sha-wf {
+  display: block;
+  height: 750px;
+  width: 100%;
+  padding-top: 50px;
+  background-image: url('../images/textured_paper.png');
+  margin: 0;
+  padding: 0;
+  background-image: none;
+  height: 740px;
+  height: 900px;
+}
+#story-sha-wf h2 {
+  font-size: 32px;
+  padding-top: 40px;
+  text-align: center;
+  color: #bbbd2d;
+}
+#story-sha-wf p {
+  width: 90%;
+  max-width: 550px;
+  margin: 15px auto;
+}
+#story-sha-wf img {
+  width: 60%;
+  display: block;
+  float: left;
+  margin: 40px 5% 0 0;
+}
+#story-sha-wf h2 {
+  font-size: 36px;
+  color: #c7cacb;
+}
+#story-sha-wf p {
+  float: right;
+  width: 30%;
+  margin: 40px 5% 0 0;
+}
+#shaimages {
+  width: 100%;
+}
+#shaimages img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 60px auto;
+}
+#shaimages p {
+  width: 50%;
+  margin: 20px auto;
+}
+#shaimages h2 {
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+  color: #292b2b;
+}
+/* --- about and contact page styles --- */
+#about {
+  width: 100%;
+  padding: 50px 0 80px 0;
+  background-image: url('../images/ticks.png');
+}
+#about p {
+  width: 90%;
+  max-width: 600px;
+  display: block;
+  margin: 10px auto;
+  color: #326574;
+}
+#contact {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  background-image: url('../images/ticks.png');
+}
+#contact h2 {
+  text-align: center;
+  padding: 40px 0;
+  color: #292b2b;
+}
+#download-link-contact {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 125px;
+  display: block;
+}
+#download-link-contact h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #292b2b;
+}
+#download-link-contact h2 a {
+  color: #326574;
+  text-decoration: none;
+}
+#download-link-contact h2 a:hover {
+  text-decoration: underline;
+}
+.under-600 {
+  display: none;
+}
+.over-600 {
+  display: block;
+}
+.padme {
+  padding-top: 20px;
+}
+.under-800 {
+  display: none;
+}
+.over-800 {
+  display: block;
+}
+@media all and (max-width: 800px) {
+  .under-800 {
+    display: block;
+  }
+  .over-800 {
+    display: none;
+  }
+}
+@media all and (max-width: 600px) {
+  .under-600 {
+    display: block;
+  }
+  .over-600 {
+    display: none;
+  }
+  #github-mobile {
+    width: 60px;
+    height: 60px;
+    background-image: url('../portfolio/github-sm.png');
+    background-position: center center;
+    background-size: 60% auto;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+  }
+  #github-mobile a {
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media all and (max-width: 1279px) and (min-width: 801px) {
+  .not-between8-1279 {
+    display: none;
+  }
+  #grid-wrapper {
+    height: 85vw;
+  }
+}
+#story8 {
+  width: 100%;
+  background-image: url(../images/mike-roof-ak.png);
+  background-size: auto 70%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+#story8 h2,
+#story8 h3 {
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+#story8 h3 {
+  font-family: 'sintony', 'times', 'times new roman', serif;
+}
+#join {
+  padding: 50px 0 100px 0;
+}
+#join h2,
+#join p {
+  width: 90%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+#join h2 {
+  text-align: center;
+}
+#join p {
+  padding: 10px 0 20px 0;
+}
+#joinform {
+  padding: 50px 0 100px 0;
+  width: 90%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+#joinform p {
+  font-size: 18px;
+}
+#joinform h3 {
+  font-size: 30px;
+}
+#joinform input {
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  font-family: 'sintony', 'times', 'times new roman', serif;
+  margin: 10px auto;
+  border: 1px solid #70763c;
+  border-radius: 5px;
+  text-indent: 10px;
+}
+#joinform input:focus {
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
+}
+#joinform .submit {
+  width: 200px;
+  display: block;
+  margin: 50px auto 0 auto;
+}
+#joinform .submit input {
+  width: 200px;
+  height: 50px;
+  font-size: 26px;
+}
+#joinform .submit:hover input {
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
+}
+#joinform #checkbox {
+  width: 100%;
+  height: auto;
+  margin: 8px auto;
+  padding: 0;
+  display: block;
+}
+#joinform .checkbox label,
+#joinform .checkbox h4 {
+  font-family: 'sintony', 'times', 'times new roman', serif;
+  font-size: 16px;
+  width: 94%;
+  padding: 1px 0 1px 30px;
+  margin: 1px 0;
+}
+#joinform .checkbox input {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-top: 2px;
+}
+#joinform textarea {
+  width: 100%;
+  height: 10em;
+  font-family: 'sintony', 'times', 'times new roman', serif;
+  font-size: 20px;
+  color: #70763c;
+}
+/* --- Index.html responsive style  --- */
+@media all and (max-width: 1199px) and (min-width: 800px) {
+  #intro {
+    display: block;
+    height: 450px;
+    width: 100%;
+    padding-top: 40px;
+  }
+  .left-hero {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .left-hero h1 {
+    padding-top: 90px;
+    font-size: 56px;
+  }
+  #hero p {
+    width: 90%;
+  }
+  #macbook {
+    height: 450px;
+    margin-top: 25px;
+  }
+  #azw {
+    background-size: 120% auto;
+  }
+}
+@media all and (max-width: 799px) and (min-width: 10px) {
+  #intro {
+    height: 350px;
+    padding-bottom: 50vw;
+  }
+  #hero {
+    width: 100%;
+  }
+  .left-hero {
+    padding-top: 0;
+  }
+  .left-hero h1 {
+    font-size: 48px;
+  }
+  .left-hero h2 {
+    font-size: 24px;
+  }
+  #macbook {
+    width: 100%;
+    background-size: 99% auto;
+    background-position: 50% -10%;
+  }
+  #story1 {
+    height: 640px;
+  }
+  #azw {
+    background-size: 180% auto;
+    height: 220px;
+  }
+  .under-600 {
+    display: block;
+  }
+}
+@media all and (max-width: 1199px) and (min-width: 0px) {
+  .deskonly {
+    display: none;
+  }
+}

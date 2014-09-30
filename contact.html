@@ -7,11 +7,15 @@
   <title>Graphic Design by Chris Jefferies</title>
   <meta name="description" content="Corporate Identity, Web Design & Illustration">
   			
-  			<!-- .less .css -->
-  <link rel="stylesheet" type="text/css" href="less/nav.css">
-  <link rel="stylesheet" type="text/css" href="less/style.css">
-  
-			
+  			<!-- .less .css  -->
+  <link rel="stylesheet" type="text/css" href="css/nav.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  			
+  			
+  			<!-- .less style links for DEVELOPMENT COMMENT OUT AFTER COMPILE, BEFORE COMMIT 
+  <link rel="stylesheet/less" type="text/css" href="less/nav.less" />
+  <link rel="stylesheet/less" type="text/css" href="less/style.less" />
+  			-->
   			
   			<!-- js for uncompiled .less 
   <script src="js/less-1.6.1.js" type="text/javascript"></script>
@@ -38,35 +42,57 @@
   
   
 </head>
-
 <body>
-	
-	
-
-
-
 	<div id="navbar">
 	 	<nav> 
 			<ul> 
 				<li><a href="index.html">Home</a></li> 
-				<li class="normal-nav"><a href="work.html">Work</a></li>
-				<li class="mobile-nav"><a href="gallery.html">Gallery</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li> 
 				<li><a href="about.html">About</a></li> 
-				<li><a href="#">Contact</a></li> 
+				<li><a href="contact.html">Contact</a></li> 
   			</ul> 
 		</nav> 
 	</div>
 	
-	
 	<div id="contact">
 		<div id="download-link-contact">
 			<h2>
-				All of my contact information can be found on my <a href="docs/cjefferies.pdf" target="_blank">Resume</a>
+				Feel free to download my <a href="docs/cjefferies.pdf" target="_blank">Resume</a>
 			</h2>
-			
 		</div>
-	
+		<div id="story8">
+			<section id="joinform">
+				<form method="post" action="contact.php">
+					<p>
+						Or drop me a line right here.
+					</p>
+				
+					<input name="firstname" placeholder="first name"><br>
+					<input name="lastname" placeholder="last name"><br>
+					<input name="email" placeholder="email address"><br>
+					<input name="subject" placeholder="message subject"><br><br>
+					<p>
+						Message:
+					</p>
+					<br><textarea name="message"></textarea><br><br>
+				
+					<!--
+					<p>
+						What is 2+2? (robot countermeasures)
+					</p><br>
+					<input name="human" placeholder="Type Answer Here"><br>
+					-->
+				
+					<div class="submit">
+						<input name="submit" type="submit" value="submit">
+					</div>
+				
+				</form>
+			</section>
+		
+		</div>
 	</div>
+	
 	
 	<div id="footer">
 		<img src="images/mi.png" alt="Michigan">
@@ -79,34 +105,8 @@
 	
 	
 	
-	</body>
-	</html>	
-	
-	<!--	
-	<div id="dev-info">
-		<h1>This is the h1</h1>
-		<h2>This is the h2</h2>
-		<p>This is the p</p>
-		<a href="#">This is the a (#)</a>
-	</div>
-	-->
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+</body>
+</html>	
 	
 	
 	
