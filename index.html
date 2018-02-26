@@ -1,195 +1,575 @@
 <!doctype html>
-<html class="no-js" lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="initial-scale=1">
-  <title>Graphic Design by Chris Jefferies</title>
-  <meta name="description" content="Corporate Identity, Web Design & Illustration">
-  			
-  			<!-- .less .css -->
-  <link rel="stylesheet" type="text/css" href="css/nav.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  			
-  			
-  			<!-- .less style links for DEVELOPMENT COMMENT OUT AFTER COMPILE, BEFORE COMMIT 
-  <link rel="stylesheet/less" type="text/css" href="less/nav.less" />
-  <link rel="stylesheet/less" type="text/css" href="less/style.less" />
-  			-->
-  			
-  			<!-- js for uncompiled .less
-  <script src="js/less-1.6.1.js" type="text/javascript"></script>
-			 -->
+<html lang="en">
 
+<title>
+	Website Stuff by Chris Jefferies
+</title>
 
-	  		<!-- Google Web Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,300' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>  
-  
-  
-  
-	  		<!-- Google Analytics -->
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  ga('create', 'UA-43651845-2', 'cjefferies.com');
-  ga('send', 'pageview');
+<meta name="description" content="A visual communicator utilizing the vehicles of the modern world">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  </script>
-  
-  
-</head>
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" href="css/darcula.css">
 
+<!-- I bet this is already cached in yo' browser -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<!-- Newt code for nav import -->
+<script type="text/javascript" src="js/newt.js"></script>
+
+<script src="js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<!-- .js -->
+<!-- <script type="text/javascript" src="js/master.min.js"></script> -->
+<script type="text/javascript" src="js/script.js"></script>
+<!-- <script type="text/javascript" src="js/console.js"></script> -->
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-43651845-2', 'cjefferies.com');
+ga('send', 'pageview');
+</script> 
+  
 <body>
 
-	<div id="navbar">
-	 	<nav> 
-			<ul> 
-				<li><a href="index.html">Home</a></li> 
-				<li><a href="portfolio.html">Portfolio</a></li> 
-				<li><a href="about.html">About</a></li> 
-				<li><a href="contact.html">Contact</a></li> 
-  			</ul> 
-		</nav> 
+	<div class="newt-menu">
+		<div class="bar"></div>
+		<div class="bar"></div>
+		<div class="bar"></div>
 	</div>
-	
-	
-	<div id="intro">
-		<div id="hero">
-			<article class="left-hero">
+	<nav class="newt">
+		<ul>
+			<li>
+				<a href="#">
+					<p>Home</p>
+				</a>
+			</li>
+			<li>
+				<a href="portfolio.html">
+					<p>Portfolio</p>
+				</a>
+			</li>
+			<li>
+				<a href="about.html">
+					<p>About</p>
+				</a>
+			</li>
+			<li>
+				<a href="contact.html">
+					<p>Contact</p>
+				</a>
+			</li>
+		</ul>
+	</nav>
+
+	<div class="newt-mask"></div>
+
+	<section>
+		<div id="top" class="story">
+			<div class="wrapper">
 				<h1>
-					Chris Jefferies
+					I'm a website guy
 				</h1>
+				<p>
+					My name is Chris Jefferies, and I am a multidisciplinary designer with a specialty in web environments.
+				</p>
+				<p>
+					I come from a design background and bring a highly technical grasp of frond-end development and computer programming to the table. 
+				</p>
+			</div>
+			<img src="images/macbook.png">
+		</div>
+
+		<div id="tmpcompany" class="story">
+			<div class="wrapper">
 				<h2>
-					Corporate Identity & Interactive Designer
+					Designed &amp; Coded
 				</h2>
 				<p>
-					I design next-generation brands, websites, and experiences. 
+					Soon after starting at tmp, I was tasked with a fully realizing the company's visual identity. With a complete revamp of the website, and a fresh set of presentation assets, we landed our biggest client yet: MillerCoors.
+				</p>
+				<div class="btn-wrapper">
+					<a href="http://tmpcompany.com" target="_blank">
+						<div class="btn">
+							view site <span>&raquo;</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="newt" class="story">
+			<div class="arrow"> 
+				<!-- ← -->
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 110 110" enable-background="new 0 0 110 110" xml:space="preserve">
+					<path d="M106.315,37.809H55.321V11.455c0-2.956-2.397-5.353-5.353-5.353c-1.409,0-2.687,0.548-3.643,1.439l-0.252,0.25L2.528,51.005c-0.685,0.426-1.264,1.001-1.695,1.682C0.308,53.514,0,54.493,0,55.544c0,1.053,0.308,2.032,0.833,2.86c0.431,0.68,1.01,1.254,1.693,1.68l43.298,42.968c0.233,0.284,0.495,0.544,0.78,0.773c0.919,0.745,2.089,1.192,3.364,1.192c2.956,0,5.353-2.396,5.353-5.353V73.312h50.995c2.172,0,3.933-1.762,3.933-3.934V41.741C110.248,39.569,108.487,37.809,106.315,37.809z"/>
+				</svg>
+			</div>
+			<div class="wrapper">
+				<h2>
+					Usability Engineering
+				</h2>
+				<p>
+					Originally a project for <a href="https://shopusahockey.com" target="_blank">ShopUSAHockey.com</a>, Newt quickly became my go-to nav experience for multiple moblie-up projects (including the nav experience on this site).
+				</p>
+				<p>
+					Care to read a quick summary of the usability research that went into this project and the decisions made along the way?
 				</p>
 				
-			</article>
-		</div>
-		<div id="macbook"></div>
-	</div>
-	<div id="bottom-grad"></div>
-	<div id="bottom-line"></div>
-	
-	<div id="story1">
-		<div id="azw"></div>
-		<div id="article2">
-			<h2>
-				a few websites ago...
-			</h2>
-			<p>
-				The developer team at SNWorks knew how to code responsive sites. I was brought on board to design
-				them. 
-			</p>
-			<p>
-				Along the way, I shaped the standards and practices for interaction and 
-				responsive design in high and low content wireframes for the organization. 
-			</p>
-		</div>
-		
-		<div id="button">
-			<a href="azw.html"><h3>View Project</h3></a>
-		</div>
-	</div>
-	
-	
-	
-	
-	
-	<div id="story6">
-		
-			<h2>
-				Need a designer who can code?
-			</h2>
-
-			<article>
-				<p>
-					You've found one. In addition to HTML5 and CSS3 proficiency, I've got experience
-					with javascript, php and jQuery. 
-				</p>
-				<p class="under-600 padme">
-					Click the <em>git</em> to view my Repositories on Github.
-				</p>
-					
-			</article>
-			
-			<div id="a-wrapper-github" class="over-600">
-				<a href="https://github.com/chrisjefferies?tab=repositories" target="_blank">
-					<div id="github">
-						<div class="onhover">
-							<div id="sp-github"></div>
-							<p>
-								Show me the Repos!
-							</p>
-						</div>
+				<div class="btn-wrapper"> 	
+					<div data-target="#newt-code" class="btn" init-modal="#console-modal">
+						learn more <span class="down">&raquo;</span>
 					</div>
-				</a>
-			</div>
-			<div id="github-mobile" class="under-600">
-				<a href="https://github.com/chrisjefferies?tab=repositories" target="_blank"></a>
+				</div>
 			</div>
 		</div>
-	
-	
-	
-	<div id="story5">
-		<div id="download-link">
-			<h2>
-				Download my full <a href="docs/cjefferies.pdf" target="_blank">Resume</a>
-			</h2>
+
+		<div id="newt-code" class="story dropdown side-by-side">
+
+			<div class="content taller">
+				<h2>source code</h2>
+				<pre><code class="js">
+						//  Aw, she turned me into a 
+						//
+						// ********** NEWT ***********
+						//
+						// include(jquery.2.1.4.min.js);
+
+						// Specify screen size where Newt activates. Hide desktop nav in css
+						var breakPoint = 768; 
+
+						// ## Error handling.
+						// Reset to default state on screen flip. Prevents wonky layout on iOS.
+						$(window).resize(function() {
+						  var w = $(window).width()
+						  if (w < breakPoint) {
+						    $('.newt-logo-area img').css('margin-left', ((w - $('.newt-logo-area img').width()) / 2) );
+						    if ( $('.newt-search input').is(':visible') ) {
+						      $('.newt-search').css('width', (w - 50) );
+						    }
+						  }
+						});
+
+						// ## Primary function
+						// Respond to user interaction and toggle menu on/off
+						$('.newt-menu, .newt-mask').click(function() {
+						  // Query State, set variables accordingly
+						  var x = $('.newt-menu').is(':visible'), w = $(window).width(), y;
+						  x? y=0: y=500;
+						  $('.newt-menu').delay(y).fadeToggle(200);
+						  if (w < breakPoint) {
+						    $('.newt-mask, nav').animate({ width: 'toggle' }, 500);
+						  } else {
+						    $('nav').animate({ width: 'toggle' }, 500);
+						    $('.newt-mask').fadeToggle(500);
+						  }
+						  $('nav ul li p, nav .cart-link p').delay(300 - y).fadeToggle(200);
+						});
+
+						// ## Secondary function
+						// Replace logo/header area with search
+						$('.newt-search').click(function() {
+						  var w = $(window).width();
+						  if ( !($('.newt-search input').is(':visible')) && w < breakPoint ) {
+						    $('.newt-logo-area img').fadeOut(100);
+						    $('.newt-search .newt-mag').delay(150).fadeOut(300);
+						    $('.newt-search').animate({ width: (w - 50) }, 400, function() {
+						      $('.newt-search input').css('opacity', 0).delay(100).animate({width: 'toggle', opacity: 1}, 400, function() {
+						        $(this).focus();
+						      });
+						    });
+						  }
+						});
+
+						// ## Secondary function
+						// Return logo/header/search to default state if abandoned.
+						$(window).scroll(function() {
+						  var w = $(window).width();
+						  if ( $('.newt-search input').is(':visible') && !($('.newt-search input').is(':focus')) && w < breakPoint ) {          
+						    $('.newt-search input').hide();
+						    $('.newt-search').animate({ width: 50 }, 400);
+						    $('.newt-search .newt-mag').delay(400).fadeIn(200);
+						    $('.newt-logo-area img').delay(500).fadeIn(200);
+						  }
+						});
+					</code>
+					<div toggle-target="pre" toggle-class="text-wrap" class="btn toggle">text-overflow: <span class="active">scroll</span><span>wrap</span></div>
+				</pre>
+			</div>
+
+			<div class="wrapper shorter">
+				<h3>
+					Designing Newt
+				</h3>
+				<p>
+					Over the course of 2014-15, shopUSAHockey.com's traffic became increasing mobile. For our team, it passed the point where compromising on mobile UX to provide a more perfectly cohesive experience from a branding perspective remained realistic. 
+				</p>
+				<p>
+					While originally just a proof of concept, I eventually modified to code to plug 'n' play in multiple environments. While Hockey's mobile nav experience preserved the functionality and interaction, the actual engine was rebuilt to accomodate a more robust library that could handle additional end-uses like the shopping cart. 
+				</p>
+				<h3>
+					Engineering Newt
+				</h3>
+				<p>
+					You'll notice that some variables, like <span>w</span>, are only defined locally. While repeated across the 4 functions that define Newt's primary behavior, each time functionality is requested by the user, newt returns behavior tailored to that environment (without assuming, for instance, that the screen is the same orientation as it was on page load). 
+				</p>
+				<p>
+					One alternative might have been to query and update a global <span>w</span> whenever the screen is resized, but would have forced the browser to execute that update even when behavior from newt wasn't requested. In a use case where a user quickly bounces between portrait (to scroll and browse) and landscape (to read and admire images), this would have meant unnecessary calculations. Conversely, a more <em>ideal</em> user that keeps orientation lock set will never need to execute the <span>.resize()</span> codeblock for error handling.
+				</p>
+			</div>
 		</div>
-	
-	</div>
-	
-	
-	<div id="footer">
-		<img src="images/mi.png" alt="Michigan">
-		<p>Born & Raised.</p>
-		<p>© 2014 | this website is 100%, lovingly hand-coded by Chris Jefferies</p>
+
+		<div id="american-heart" class="story">
+			<div class="wrapper">
+				<img src="images/aha-logo.png">
+				<h2>
+					Taking the lead on tmp's flagship brand
+				</h2>
+				<p>
+					For more than a year, I've been the lead developer for the American Heart Association's ShopHeart.org. This meant spearheading some big projects, including a complete nav UX rebuild, and a new generation of content pages.
+				</p>
+				<p>
+					Rebuilding the Nav experience meant managing everything from overseeing the product categorization and migration to the principle development and environment compatability testing. 
+				</p>
+				<p>
+					While I'm proud of the engineering, the web layout and design ended up being some of my strongest work as a designer, pushing the limits of my photo-retouching, typography and marketing skills. 
+				</p>
+				
+				<div class="btn-wrapper">
+					<a href="http://shopheart.org" target="_blank">
+						<div class="btn">
+							check it out <span>&raquo;</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="photoshop" class="story">
+			<div class="wrapper">
+				<h2>
+					Photoshop like a Pro
+				</h2>
+				<p>
+					Utlizing the robust software's full capability to create powerful imagery that communicates and connects. 
+				</p>
+				<p>
+					This project, for the USA Hockey Olympic Team, formed the central design element in multi-channel series push leading into the busy holiday season.
+				</p>
+				<div class="btn-wrapper rotate"> 	
+					<div data-target="#hockey" class="btn">
+						view more <span class="down">&raquo;</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="hockey" class="story">
+			<img src="images/usah/usah-refl-01.png" alt="its in all of us - campaign design for the USA Hockey Olympic Team">
+			<p>
+				A multiple touchpoint print and digital campaign leading into <a href="https://www.shopusahockey.com" target="_blank">The Hockey Shop</a>'s holiday 2016. 
+			</p>
+			<p>
+				Conceptually, the campaign hinged on the idea of brand loyalty. Rather than posing a rational proposition&mdash;here is a discount, for example&mdash;the campaign presupposed a strong brand affinity among a targeted audience, and leveraged the emotional connection built among coaches, players and fans all over the country.
+			</p>
+			<h3>
+				Why do it this way?
+			</h3>
+			<p>
+				Well, <em>social identity theory</em> is a well-documented area of psychological study, and any marketer worth his salt wouldn't dismiss an opportunity to let human brains generate their own demand for your product. 
+			</p>
+			<p>
+				While my budget proposal for setting up a model shoot for this concept wasn't approved, retrofitting the apparel onto a professional, high-quality stock photo was a <span title="Yes, it's unfortunate that not every project can be executed to its highest possible expression. In this case, it was a 99% compromise.">quick proposition.</span> 
+			</p>
+			<h3>
+				Here's how I did it:
+			</h3>
+			<img class="desk-only" src="images/usah/usah-refl-03.png" alt="behind the photoshop for USA Hockey's campaign">
+			<img class="mob-only" src="images/usah/usah-refl-04.png" alt="behind the photoshop for USA Hockey's campaign mobile version">
+			<img src="images/usah/usah-refl-05.png" alt="highly photoshopped double-exposure of a hockey fan">
+			<p>
+				Since it the central push for the campaign was a centerfold in <em>USA Hockey Magazine,</em> quality and attention to detail was paramount.
+			</p>
+			
+			<!-- <img src="images/usah/usah-refl-06.png" alt="its in all of us - campaign magazine mockup"> -->
+
+			<p>
+				This technique is a popular choice for delivering a high quality project on a quick timeline, and while it doesn't provide the kind of consistency and specialization derived from a dedicated model shoot, it's highly budget friendly, and is often a 99% compromise. You might recognize <a href="https://twitter.com/maridavprod" target="_blank">@MaridavProd</a>'s <a href="https://www.shutterstock.com/image-photo/sport-fitness-runner-man-running-on-287558735?src=TA37hWs5tKlSSZv4r3yDUg-1-2" target="_blank">Jogging Guy</a> from above, but that's another write-up. 
+			</p>
+		</div>
+	</section>
+
+	<footer id="cv">
 		
 		<h2>
-			thanks for looking<br>
-			before you go, I hope you'll check out my:
+			experience, credentials, &amp; qualifications
 		</h2>
+
+		<p>
+			My 10,000 hours. abridged.
+		</p>
 		
-		<div id="button">
-			<a href="portfolio.html">
-				<h3>Portfolio</h3>
-			</a>
+		<div class="cv-table">
+			<div class="full">
+				<h3>Education</h3>
+			</div>
+			<div class="left">Michigan State University</div> 
+			<div class="right">2014 | Bachelor of Fine Arts</div>
+			<div class="full">
+				<small>
+					With a concentration in Graphic Design, and a secondary concentration in Electronic Art and Intermedia.
+				</small>
+			</div>
+			<div class="left">Oakland Community College</div> <div class="right">2012 | Associate of Applied Science</div>
+			<div class="full">
+				<small>
+					Graphic Design
+				</small>
+			</div>
+			<div class="left">Oakland Community College</div> <div class="right">2012 | Associate of Liberal Arts</div>
 		</div>
-	</div>
-	
-	
-	
-	
-	
-	</body>
-	</html>	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+		<div class="cv-table">
+			<div class="full">
+				<h3>Experience</h3>
+			</div>
+			<div class="left"><a href="http://tmpcompany.com" target="_blank">tmp</a></div> <div class="right">2014 - Present</div>
+			<div id="tmp-history" class="full">
+				<span>Web Developer</span> web engineering, front-end and back-end development.<br>
+				<span class="pad-top">Area of focus</span>
+				<ul class="work-history">
+					<li>Front-End Development for multiple CMS environments, including Magento</li>
+					<li>Engineering and support for custom web applications (both independently and as part of a team).</li>
+					<li>Acting team leader, responsible for hiring and training new employees (essentially, taking art majors on a crash course through HTML &amp; CSS).</li>
+					<li>Documentation and technical writing for developer and non-techincal audiences</li>
+					<li>Limited server administration in multiple linux environments including Ubuntu 16.04 (EC2 cloud)</li>
+					<li>While at tmp, I have held multiple titles including <span>digital innovation strategist</span> (2017), <span>digital marketing manager</span> (2016) and <span>digital marketer</span> (2014-15).  </li>
+					<!-- <button class="btn" toggle-target="#tmp-history" toggle-class="detail"><span class="active">Show</span><span>Hide</span> Detailed History</button> -->
+				</ul>
+			
+
+				<!-- <div id="history-detail">
+					<div class="left"><a href="http://tmpcompany.com" target="_blank">tmp</a></div> <div>2016 - 2017</div>
+					<div class="full">
+						<span>Digital Innovation Strategist</span> web engineering and project management between digital marketing and development teams.<br>
+						<span class="pad-top">Area of focus</span>
+						<ul>
+							<li>Worked closely with management on execution of multiple long term projects including custom internal software.</li>
+							<li>Engineered new functionality into existing marketing programs.</li>
+							<li>Worked independently and as team leader.</li>
+							<li>Developed and built assets to create a new generation of conversion-optimized landing pages like 
+							<a href="https://shopheart.org/gifts-for-dad" target="_blank">this one for the American Heart Assocation</a>  
+							exceeding conversion rate optimization goals.</li>
+						</ul>
+					</div>
+					<div class="left"><a href="http://tmpcompany.com" target="_blank">tmp</a></div> <div>2016</div>
+					
+					<div class="full">
+						<span>Digital Marketing Manager</span> recruited and led digital marketing creative team.<br>
+						<span class="pad-top">Area of focus</span>
+						<ul>
+							<li>Built new Node.js/Grunt workflow for email marketing (contributing to a 125% YOY increase in department output).</li>
+							<li>Worked closely with strategy and social media teams to develop quarterly and annual promotional cadence across 20+ accounts.</li>
+							<li>Produced day-to-day creative for <a href="https://shopheart.org" target="_blank">American Heart Association</a>, <a href="https://shop.coorslight.com" target="_blank">Coors Light</a>, and <a href="https://shopusahockey.com" target="_blank">USA Hockey</a></li>
+						</ul>
+					</div>
+					<div class="left"><a href="http://tmpcompany.com" target="_blank">tmp</a></div> <div>2014 - 2016</div>
+					<div class="full">
+						<span>Digital Marketer</span> multidisciplinary eCommerce designer and developer. Duties include email marketing, web design, development &amp; digital strategy.
+						Designed <a href="https://tmpcompany.com" target="_blank">tmp's website</a> and brand.
+					</div> 
+				</div> -->
+			</div>
+
+			<div class="left">
+				<a href="http://statenews.com" target="_blank">State News</a>
+			</div> 
+			<div class="right">
+				2013 - 2014
+			</div>
+			<div class="full">
+				<span>Web Designer</span> for a variety of academic clients. 
+			</div>
+
+			<div class="left">
+				<a href="http://a-l-e.net" target="_blank">American Laser</a>
+			</div> 
+			<div class="right">
+				2010 - 2012
+			</div>
+			<div class="full">
+				<span>Marketing Intern</span> 
+			</div>
+
+		</div>
+
+		<h2>
+			tools of the trade
+		</h2>
+		<p>
+			my visual communication toolkit
+		</p>
+
+		<div class="cv-table">
+			<div class="full">
+				<h3>dev side</h3>
+				<p>
+					Putting that A- in Calc II to good use. 
+				</p>
+			</div>
+			<div class="full flex">
+				<img src="images/sk/skls-07.png">
+				<img src="images/sk/skls-terminal.png">
+				<img src="images/sk/skls-transmit.png">
+
+				<img src="images/sk/skls-10.png">
+				<img src="images/sk/skls-11.png">
+				<img src="images/sk/skls-less.png">
+				<img src="images/sk/skls-sass.png">
+				
+				<img src="images/sk/skls-14.png">
+				<img src="images/sk/skls-15.png">
+				<img src="images/sk/skls-php.png">
+				<img src="images/sk/skls-comp.png">
+				<img src="images/sk/skls-16.png">
+				<img src="images/sk/skls-12.png">
+
+				<img src="images/sk/skls-git.png">
+				<img src="images/sk/skls-jira.png">
+				<img src="images/sk/skls-confl.png">
+
+			</div>
+			<div class="left">
+				<p>
+					dev environment proficiencies
+				</p>
+				<ul>
+					<li>Ubuntu 16.04 (This site)</li>
+					<li>Apache (LAMP Stack), NGiИX</li>
+					<li>Node.js, Grunt</li>
+					<li>Amazon AWS (Cloudfront, S3, EC2)</li>
+					<li>Magento</li>
+					<li>Atomic Design</li>
+				</ul>
+			</div> 
+			<div class="right">
+				<p>
+					language &amp; tool proficiencies
+				</p>
+				<ul>
+					<li>HTML5</li>
+					<li>CSS3, .less, &amp; Sass</li>
+					<li>JavaScript, jQuery, Require.js</li>
+					<li>HTTP, Ajax</li>
+					<li>PHP, Composer</li>
+					<li>git</li>
+					<li>ssh</li>
+					<li>Agile/SCRUM project management. Atlassian, JIRA, &amp; Confluence</li>
+				</ul>
+			</div>
+			<div class="full">
+				My mastery of <span>HTML, CSS &amp; JS</span> is in the 96th percentile of developers, as assessed by <a href="http://ikmnet.com" target="_blank">IKM NET</a>. 
+			</div>
+		</div>
+
+		<div class="cv-table">
+			<div class="full">
+				<h3>design side</h3>
+				<p>
+					I didn't get all dressed up for nothin'
+				</p>
+			</div>
+
+			<div class="full flex">
+				<img src="images/sk/cs6-01.png">
+				<img src="images/sk/cs6-02.png">
+				<img src="images/sk/cs6-03.png">
+				<img src="images/sk/cs6-05.png">
+				<img src="images/sk/aff-01.png">
+				<img src="images/sk/aff-02.png">
+				
+			</div>
+			
+			<div class="full">
+				<span>Other Stuff I know about</span><br>
+				<ul class="skills">
+					<li>Environment compatability testing, including tools like Browserstack</li>
+					<li>Web design for optimum user experience (especially on mobile)</li>
+					<li>HTML dev for Email Compatability (Along with Litmus testing)</li>
+					<li>Enterprise Email Marketing Program Management</li>
+					<li>User Behavior &amp; A-B Testing</li>
+					<li>Retail product and other professional photography &amp; videography</li>
+					<li>Creating presentations to pitch new clients</li>
+					<li>Microsoft Excel, and the rest of MS Office</li>
+					<li>Actually, I'm a pretty good statistician (access to eCommerce analytics will do that)</li>
+
+				</ul>
+			</div>
+		</div>
+
+		<div id="console-modal" class="modal" data-dismiss="target" data-expired="false">
+			<span data-dismiss="true" class="dismiss">×</span>
+			<h3>
+				Have an eye for code?
+			</h3>
+			<p>
+				Care to take a look under the hood of this site?
+			</p>
+			<div class="btn-wrapper">
+				<button class="btn" data-dismiss="true" onclick="toggle_console();">View Guts</button>
+			</div>
+		</div>
+
+		<div id="console">
+			<span toggle-console="true" class="dismiss">×</span>
+			<div class="btn-wrapper">
+				<button class="btn" data-console="less">Less</button>
+				<button class="btn" data-console="js">JS</button>
+			</div>
+
+			<pre>
+				<code>
+				</code>
+			</pre>
+		</div>
+
+
+		<!-- <div id="dragongrog" class="story">
+			<div class="content">
+				<h2>
+					Print is Dead. Long Live Print.
+				</h2>
+				<p>
+					DragonGrog is a web application that calculates combat statistics for table top roll playing games and generates print-ready files on a lean HTML5/CSS3 engine.
+				<br><br>
+					There are lots of apps that do this, but mine looks really nice.
+				<br><br>
+					It's like fantasy football for nerds.
+				</p>
+				
+				<div class="btn-wrapper">
+					<a href="http://dragongrog.com" target="_blank">
+						<div class="btn">
+							check it out <span>&raquo;</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div> -->
+
+
+	</footer>
+
+
+</body>
+</html>

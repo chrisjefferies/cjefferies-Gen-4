@@ -1,0 +1,97 @@
+#console {
+	display: none;
+}
+
+html.console {
+	width: 75%;
+	margin-left: 25%;
+}
+
+#console {
+	width: 25%;
+	display: none;
+
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border: 3px solid @slime;
+	background-color: darken(@black, 20%);
+	box-sizing: border-box;
+	
+	overflow-y: scroll;
+	pre {
+		tab-size: 4;
+	}
+	code {
+		background-color: darken(@black, 20%);
+		
+		font-size: 0.9rem;
+		color: darken(@gray, 50%);
+		span {
+			font-family: monospace;
+		}
+	}
+}
+
+
+.less-sel {
+	color: @slime;
+	&.active {
+		color: lighten(@slime, 15%);
+	}
+}
+.less-quot {
+	color: @gray;
+	&.active {
+		color: lighten(@gray, 15%);
+	}
+}
+.less-var,
+.less-el {
+	color: @salmon;
+	&.active {
+		color: lighten(@salmon, 15%);
+	}
+}
+.less-prop {
+	color: @blue;
+	&.active {
+		color: lighten(@blue, 15%);
+	}
+}
+.less-val {
+	color: @khaki;
+	&.active {
+		color: lighten(@khaki, 15%);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
